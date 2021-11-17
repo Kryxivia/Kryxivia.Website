@@ -1,10 +1,9 @@
 /* font-face */
     
-    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap');
-    @font-face{font-display:swap;font-family:'Gilroy';src:local('Gilroy ExtraBold'),url('../fonts/gilroy/Gilroy-Extrabold.woff2') format('woff2'),url('../fonts/gilroy/Gilroy-Extrabold.woff') format('woff');font-weight:bold;font-style:normal;}
-    @font-face{font-display:swap;font-family:'Gilroy';src:local('Gilroy ExtraBold Italic'),url('../fonts/gilroy/Gilroy-ExtraboldItalic.woff2') format('woff2'),url('../fonts/gilroy/Gilroy-ExtraboldItalic.woff') format('woff');font-weight:bold;font-style:italic;}
-    @font-face{font-display:swap;font-family:'Gilroy';src:local('Gilroy Medium'),url('../fonts/gilroy/Gilroy-Medium.woff2') format('woff2'),url('../fonts/gilroy/Gilroy-Medium.woff') format('woff');font-weight:500;font-style:normal;}
-    @font-face{font-display:swap;font-family:'Gilroy';src:local('Gilroy Medium Italic'),url('../fonts/gilroy/Gilroy-MediumItalic.woff2') format('woff2'),url('../fonts/gilroy/Gilroy-MediumItalic.woff') format('woff');font-weight:500;font-style:italic;}
+    @font-face{font-display:swap;font-family:'Gilroy';src:url('../fonts/gilroy/Gilroy-Extrabold.woff2') format('woff2'),url('../fonts/gilroy/Gilroy-Extrabold.woff') format('woff');font-weight:bold;font-style:normal;}
+    @font-face{font-display:swap;font-family:'Gilroy';src:url('../fonts/gilroy/Gilroy-ExtraboldItalic.woff2') format('woff2'),url('../fonts/gilroy/Gilroy-ExtraboldItalic.woff') format('woff');font-weight:bold;font-style:italic;}
+    @font-face{font-display:swap;font-family:'Gilroy';src:url('../fonts/gilroy/Gilroy-Medium.woff2') format('woff2'),url('../fonts/gilroy/Gilroy-Medium.woff') format('woff');font-weight:500;font-style:normal;}
+    @font-face{font-display:swap;font-family:'Gilroy';src:url('../fonts/gilroy/Gilroy-MediumItalic.woff2') format('woff2'),url('../fonts/gilroy/Gilroy-MediumItalic.woff') format('woff');font-weight:500;font-style:italic;}
 
 /* general */
 
@@ -30,7 +29,6 @@
 /* var */
     :root{
         --ff:'Gilroy', sans-serif;
-        --fp:'Playfair Display', serif;
         --fs:calc(13px + 2 * (100vw - 320px) / 1080);
         --fs_title:calc(20px + 15 * (100vw - 320px) / 1080);
         --cubic:cubic-bezier(.305,.045,.355,1);

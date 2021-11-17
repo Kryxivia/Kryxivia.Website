@@ -226,41 +226,9 @@ t = $g.timeline({scrollTrigger:{
 t.fromTo('#do .down-ix-b img', 1, {y:'15%'}, {y:'0%'}, 'a')
 t.fromTo('#do .bgi', 1, {y:'-20%',opacity:.5}, {y:'20%',opacity:1}, 'a')
 
-
-function getCookie(cname) {
-    let name = cname + "=";
-    let decodedCookie = decodeURIComponent(document.cookie);
-    let ca = decodedCookie.split(';');
-    for(let i = 0; i <ca.length; i++) {
-      let c = ca[i];
-      while (c.charAt(0) == ' ') {
-        c = c.substring(1);
-      }
-      if (c.indexOf(name) == 0) {
-        return c.substring(name.length, c.length);
-      }
+document.addEventListener('click', () => {
+    if(sessionStorage.getItem('trailer') != 'ok'){
+        openTra()
+        sessionStorage.setItem('trailer', 'ok')
     }
-    return "";
-  }
-
-
-function setCookie(cname, cvalue, exdays) {
-    const d = new Date();
-    d.setTime(d.getTime() + (exdays*24*60*60*1000));
-    let expires = "expires="+ d.toUTCString();
-    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-  }
-
-
-function bigBro(e) {
-    
-    setTimeout(() => { 
-        if ($.cookie('trailer') == null ) {
-            openTra(); 
-            $.cookie('trailer', true, { expires: 2147483647 });
-        }
-    }, 2000);
-
-}
-
-$(document).bind("click keydown keyup", bigBro);
+})
