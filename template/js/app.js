@@ -227,8 +227,46 @@ t.fromTo('#do .down-ix-b img', 1, {y:'15%'}, {y:'0%'}, 'a')
 t.fromTo('#do .bgi', 1, {y:'-20%',opacity:.5}, {y:'20%',opacity:1}, 'a')
 
 document.addEventListener('click', () => {
-    if(sessionStorage.getItem('trailer') != 'ok'){
+    if(localStorage.getItem('trailer') != 'ok'){
         openTra()
-        sessionStorage.setItem('trailer', 'ok')
+        localStorage.setItem('trailer', 'ok')
     }
 })
+
+// countdown
+
+document.querySelectorAll('[data-countdown]').forEach(l => {
+
+    let date = l.getAttribute('data-countdown')
+    let cnt = l.getAttribute('data-link-cnt')
+    let end = new Date(date).getTime()
+
+    let seconds = 1000
+    let minutes = seconds * 60
+    let hours = minutes * 60
+    let days = hours * 24
+
+    let x = setInterval(() => {
+        let now = new Date().getTime()
+        const difference = end - now
+
+        if (difference < 0) {
+            clearInterval(x)
+            l.innerHTML = "Buy now !"
+            document.getElementById(cnt).classList.add('go')
+            return
+        }
+        daysEl = Math.floor(difference / days)
+        hoursEl = Math.floor( (difference % days) / hours )
+        if(hoursEl < 10){ hoursEl = '0'+hoursEl }
+        minutesEl = Math.floor( (difference % hours) / minutes )
+        if(minutesEl < 10){ minutesEl = '0'+minutesEl }
+        secondsEl = Math.floor( (difference % minutes) / seconds )
+        if(secondsEl < 10){ secondsEl = '0'+secondsEl }
+
+        l.innerHTML = daysEl+':'+hoursEl+':'+minutesEl+':'+secondsEl
+
+    }, seconds)
+
+})
+
