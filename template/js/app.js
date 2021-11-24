@@ -239,7 +239,8 @@ document.querySelectorAll('[data-countdown]').forEach(l => {
 
     let date = l.getAttribute('data-countdown')
     let cnt = l.getAttribute('data-link-cnt')
-    let end = new Date(date).getTime()
+	let endDate = new Date(date)
+    let end = endDate.getTime()
 
     let seconds = 1000
     let minutes = seconds * 60
@@ -264,7 +265,8 @@ document.querySelectorAll('[data-countdown]').forEach(l => {
         secondsEl = Math.floor( (difference % minutes) / seconds )
         if(secondsEl < 10){ secondsEl = '0'+secondsEl }
 
-        l.innerHTML = daysEl+':'+hoursEl+':'+minutesEl+':'+secondsEl
+        //l.innerHTML = daysEl+ ':'+hoursEl+':'+minutesEl+':'+secondsEl
+		l.innerHTML = `${daysEl}d, ${hoursEl}h, ${minutesEl}m, ${secondsEl}s.`
 
     }, seconds)
 

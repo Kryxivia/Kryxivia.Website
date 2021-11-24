@@ -199,8 +199,8 @@
     #ix .presale .live:after{--d:10px;margin-left:5px;animation:online 1s infinite linear;content:'';width:var(--d);z-index:100;height:var(--d);background-color:rgb(var(--c));border-radius:50%;display:block;}
     #ix .presale .ct{margin-top:15px;display:flex;width:100%;left:0;align-items:center;justify-content:center;}
     #ix .presale .ct > div + div{margin-left:25px;}
-    #ix .presale a{display:flex;align-items:center;font-size:14px;letter-spacing:0px;}
-    #ix .presale a:not(.go){cursor:not-allowed;pointer-events:none;}
+    #ix .presale a{display:flex;align-items:center;letter-spacing:0px;}
+    #ix .presale a:not(.go):hover{color:var(--primary);}
     #ix .presale a.go:hover{color:var(--green);}
     #ix .presale a svg{--d:calc(25px + 5 * (100vw - 320px) / 1080);width:var(--d);height:var(--d);margin-right:7px;}
     #ix .presale a svg *{fill:var(--primary);}
