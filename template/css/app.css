@@ -202,7 +202,7 @@
     #ix .presale a{display:flex;align-items:center;letter-spacing:0px;}
     #ix .presale a:not(.go):hover{color:var(--primary);}
     #ix .presale a.go:hover{color:var(--green);}
-    #ix .presale a svg{--d:calc(25px + 5 * (100vw - 320px) / 1080);width:var(--d);height:var(--d);margin-right:7px;}
+    #ix .presale a svg{--d:calc(15px + 5 * (100vw - 320px) / 1080);width:var(--d);height:var(--d);margin-right:7px;}
     #ix .presale a svg *{fill:var(--primary);}
     #ix .presale a strong svg{width:calc(var(--fs) + 3px);margin-right:0;height:calc(var(--fs) + 3px);}
     #ix .presale a.go svg *{fill:var(--green);}
