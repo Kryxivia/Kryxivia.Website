@@ -207,6 +207,8 @@
     #ix .presale a.go svg *{fill:var(--green);}
     #ix .presale a .cntd{font-size:12px;margin-top:3px;color:var(--primary);}
     #ix .presale a.go .cntd{color:var(--green);}
+    #ix .pancakeswap{margin:auto;margin-top:calc(15px + 10 * (100vw - 320px) / 1080);border-radius:50px;width:calc(130px + 20 * (100vw - 320px) / 1080);display:block;}
+    #ix .pancakeswap img{width:100%;}
 
 /* a */
     
@@ -288,6 +290,11 @@
     #pa .sw-n button span{--bcks:15px;}
     #pa .sw-n button svg{fill:var(--txt);width:30%;}
     #pa .sw-n button + button{margin-left:15px;}
+    #pa .prss{--n:5;--p:calc(15px + 10 * (100vw - 320px) / 1080);margin:calc(15px + 5 * (100vw - 320px) / 1080) calc(var(--p)*-1) calc(30px + 15 * (100vw - 320px) / 1080);display:flex;flex-wrap:wrap;justify-content:center;}
+    #pa .prss > li{width:calc((100% / var(--n)) - var(--p)*2);margin:var(--p);display:flex;align-items:center;justify-content:center;}
+    #pa .prss > li a{transition:opacity .2s;opacity:.5;display:flex;align-items:center;justify-content:center;}
+    #pa .prss > li a:hover{opacity:1;}
+    #pa .prss > li a img{width:100%;}
 
 
 /* trailer */
@@ -382,6 +389,16 @@
     #f .ct-d{flex-direction:column;text-align:center;}
 
 }
+@media screen and (max-width:950px){
+
+    #pa .prss{--n:4;--p:calc(15px + 7 * (100vw - 320px) / 1080);}
+
+}
+@media screen and (max-width:800px){
+
+    #pa .prss{--n:3;--p:calc(20px + 5 * (100vw - 320px) / 1080);}
+
+}
 @media screen and (max-width:700px){
 
     #ix{flex-direction:column;height:auto;}
@@ -416,6 +433,8 @@
     #f .ct-r > *{width:25%;}
 
     #tk .tk .txt{width:65%;}
+
+    #pa .prss{--n:2;}
 
 }
 @media screen and (max-width:400px){
