@@ -204,6 +204,7 @@
     #ix .presale a.go:hover{color:var(--green);}
     #ix .presale a svg{--d:calc(25px + 5 * (100vw - 320px) / 1080);width:var(--d);height:var(--d);margin-right:7px;}
     #ix .presale a svg *{fill:var(--primary);}
+    #ix .presale a strong svg{width:calc(var(--fs) + 3px);margin-right:0;height:calc(var(--fs) + 3px);}
     #ix .presale a.go svg *{fill:var(--green);}
     #ix .presale a .cntd{font-size:12px;margin-top:3px;color:var(--primary);}
     #ix .presale a.go .cntd{color:var(--green);}
@@ -325,7 +326,7 @@
     #f .ct{display:flex;justify-content:space-between;align-items:center;z-index:100;padding:calc(50px + 50 * (100vw - 320px) / 1080) 0 0;}
     #f .ct-d{padding:calc(20px + 20 * (100vw - 320px) / 1080) 0 calc(25px + 15 * (100vw - 320px) / 1080);}
     #f .ct-r a{position:absolute;top:0;z-index:100;display:flex;align-items:center;justify-content:center;width:25%;top:48%;left:50%;transform:translate(-50%, -50%);}
-    #f .ct-r a:before{z-index:10;opacity:.2;animation:krysL 4s infinite alternate;animation-delay:var(--d);content:'';position:absolute;width:350%;height:250%;background:radial-gradient(var(--c) 0%, transparent 70%);top:50%;left:50%;transform:translate(-50%, -50%);}
+    #f .ct-r a:hover:before{transition:opacity .2s;z-index:10;animation:krysL 4s infinite alternate;animation-delay:var(--d);content:'';position:absolute;width:350%;height:250%;background:radial-gradient(var(--c) 0%, transparent 70%);top:50%;left:50%;transform:translate(-50%, -50%);}
     #f .ct-r > *:nth-child(1) a{--c:#0088cc;}
     #f .ct-r > *:nth-child(2) a{--c:#1da1f2;}
     #f .ct-r > *:nth-child(3) a{--c:#ff5700;}
