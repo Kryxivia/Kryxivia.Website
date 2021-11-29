@@ -1,0 +1,87 @@
+{
+    "header": {
+      "nav": {
+        "home": "Home",
+        "telegram": "Telegram",
+        "documentation": "Documentation",
+        "team": "About Team",
+        "litepaper": "Litepaper",
+        "marketplace": "NFT Marketplace",
+        "play": "Play Now",
+        "language": "Language"
+      }
+    },
+    "hero": {
+      "title": "PLAY TO EARN EXPERIENCE",
+      "subtitle": "An innovative MMORPG game leveraging NFT on blockchain",
+      "trailer": "Watch trailer",
+      "poweredby": "Powered by",
+      "nodate": "No date yet",
+      "btn": {
+          "title": "Play Now",
+          "subtitle": "Connect to Metamask"
+      },
+      "presale": "Presale : <strong class='live'>Live Schedule</strong>"
+    },
+    "about": {
+      "title": "Crypto-currencies as a Gaming Economy revolution",
+      "subtitle": "Interactive and fun 3D MMORPG",
+      "p1": "Play now an interactive and fun 3D MMORPG on your browser with your friends, while collecting NFTs that you give rewards backed by crypto-assets returns won from your progress in the Kryxivia universe!",
+      "p2": "On Kryxivia, we leverage the best features that blockchain's can offer to give you the best economy in gaming experience.",
+      "kxa": {
+          "title": "KXA Token",
+          "desc": "The KXA token, which stands for Kryxivia Coin token deployed on the Binance Smart Chain is the base crypto-currency for on-chain payment and special packs such as starter packs, special NFT sell events, or exchanging for the in-game currency KXS.",
+          "btn": "More details in the documentation"
+      },
+      "kxs": {
+          "title": "KXS Token",
+          "desc": "The KXS token, which stands for Kryxivia Shard Coin deployed on the Binance Smart Chain is the online currency to play, buy, trade, and have new online pieces of stuff in the Kryxivia world, as it carries more risk and economic moves, it needs to have a huge supply so that every player can have some to play with.",
+          "btn": "More details in the documentation"
+      }
+    },
+    "stats": {
+      "title": "Game Statistics",
+      "subtitle": "Kryxivia city",
+      "p1": "Come in-game and build a powerful character, become one of the most feared adventurer of the Kryxivia city!",
+      "p2": "By joining the Kryxivia mine with your friends, you will fight against the hardest bosses and prove your worth to everyone to then be rewarded with the magical Kryxits and items that you will loot in.",
+      "online": "Players online",
+      "kxa-mc": "KXA Marketcap",
+      "kxs-mc": "KXS Marketcap",
+      "minted": "Kryxivia NFT Minted"
+    },
+    "press": {
+      "title": "They talk about us",
+      "subtitle": "Press article"
+    },
+    "partners": {
+      "title": "Our partners"
+    },
+    "footer": {
+      "buy-ps": "Buy on Pancakeswap",
+      "copyright": "<strong>Kryxivia © 2021</strong>. All rights reserved.",
+      "column": {
+        "$0": {
+          "title": "Resources",
+          "links": {
+            "$0": "Github",
+            "$1": "Documentation",
+            "$2": "Medium",
+            "$3": "Coin Market Cap",
+            "$4": "Contracts Audits",
+            "$5": "KXA Liquidity Pool"
+          }
+        },
+        "$1": {
+          "title": "Follow Us",
+          "links": {
+            "$0": "Telegram",
+            "$1": "Twitter",
+            "$2": "Reddit",
+            "$3": "Discord",
+            "$4": "LinkedIn",
+            "$5": "Instagram"
+          }
+        }
+      }
+    }
+}

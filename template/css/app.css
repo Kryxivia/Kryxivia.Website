@@ -443,3 +443,118 @@
    #h{--lg:230px!important;--lgt:-45px!important;--h:50px;}
 
 }
+
+/** dropown language selector */
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  
+  @media screen and (min-width:901px){      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        z-index: 1;
+        box-shadow: rgb(255 255 255 / 3%) 0px 1px 0px, rgb(255 255 255 / 3%) 0px -1px 0px, rgb(0 0 0 / 20%) 0px 0px 15px inset, rgb(0 0 0 / 10%) 0px 0px 15px;
+        background-color: rgba(var(--bg_2_rgb),var(--opac));
+        backdrop-filter: blur(5px);
+      }
+    }
+    
+    @media screen and (max-width:900px){
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          top: 100%;
+          width: 100%;
+          z-index: 1;
+        }
+  }
+  
+.dropdown-content a {
+    color:#fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    color:#fff;
+    text-shadow:0 3px 20px rgba(255,255,255,.5), 0 1px 5px rgba(255,255,255,.8);
+    }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+      color:#fff;
+      text-shadow:0 3px 20px rgba(255,255,255,.5), 0 1px 5px rgba(255,255,255,.8);
+  }
+
+/** i18n */
+
+.krx-li {
+    text-transform: uppercase;
+    height: 32px;
+}
+.krx-flags a:before {
+  content: "";
+  vertical-align: middle;
+  margin-right: 10px;
+  margin-top: -1px;
+  display: inline-block;
+  overflow: hidden;
+  background-image: url(../img/rect_mate.png);
+  background-size: auto 20px;
+  width: 30px;
+  height: 20px;
+}
+
+.krx-flags.flag-3 a:before {
+  background-image: url(../img/circular_flag.png);
+  background-size: auto 24px;
+  border-radius: 0;
+  width: 24px;
+  height: 24px;
+}
+
+.krx-li.flag-3.en a:before {
+  background-position: -2520px 0;
+}
+
+.krx-li.flag-3.fr a:before {
+  background-position: -2760px 0;
+}
+
+.krx-li.flag-3.es a:before {
+  background-position: -3576px 0;
+}
+
+.krx-li.flag-3.ru a:before {
+  background-position: -2664px 0;
+}
+
+.krx-li.flag-3.zh a:before {
+  background-position: -3240px 0;
+}
+
+.krx-li.flag-3.ar a:before {
+  background-position: -3336px 0;
+}
+
+.krx-li.flag-3.jp a:before {
+  background-position: -2448px 0;
+}
+
+.krx-li.flag-3.pt a:before {
+  background-position: -3504px 0;
+}
+
+.krx-li.flag-3.et a:before {
+  background-position: -2856px 0;
+}
