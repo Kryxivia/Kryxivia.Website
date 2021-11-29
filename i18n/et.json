@@ -1,0 +1,87 @@
+{
+  "header": {
+    "nav": {
+      "home": "Kodu",
+      "telegram": "Telegramm",
+      "documentation": "Dokumentatsioon",
+      "team": "Meeskonna kohta",
+      "litepaper": "Litepaber",
+      "marketplace": "NFT turg",
+      "play": "Mängi nüüd",
+      "language": "Keel"
+    }
+  },
+  "hero": {
+    "title": "MÄNGI, ET KOGEMUSTE TEENIMINE",
+    "subtitle": "Uuenduslik MMORPG-mäng, mis kasutab NFT-d plokiahelal",
+    "trailer": "Vaata treilerit",
+    "poweredby": "Toiteallikaks",
+    "nodate": "Kuupäeva veel pole",
+    "btn": {
+      "title": "Mängi nüüd",
+      "subtitle": "Ühendage metamaskiga"
+    },
+    "presale": "Eelmüük: <strong class='live'>reaalajas ajakava</strong>"
+  },
+  "about": {
+    "title": "Krüptovaluutad kui mängumajanduse revolutsioon",
+    "subtitle": "Interaktiivne ja lõbus 3D MMORPG",
+    "p1": "Mängige nüüd koos sõpradega oma brauseris interaktiivset ja lõbusat 3D MMORPG-d, kogudes samal ajal NFT-sid, mille preemiaks on Kryxivia universumis saavutatud krüptovarade tootlus!",
+    "p2": "Kasutame Kryxivias parimaid funktsioone, mida blockchain suudab pakkuda, et pakkuda teile mängukogemuses parimat säästlikkust.",
+    "kxa": {
+      "title": "KXA märk",
+      "desc": "KXA märk, mis tähistab Binance Smart Chain'is kasutusele võetud Kryxivia mündimärki, on baaskrüptovaluuta ahelasiseste maksete ja eripakettide jaoks, nagu stardipaketid, spetsiaalsed NFT müügiüritused või mängusisese valuuta KXS vastu vahetamine.",
+      "btn": "Täpsemalt dokumentatsioonis"
+    },
+    "kxs": {
+      "title": "KXS märk",
+      "desc": "KXS-i märk, mis tähistab Binance Smart Chain'is kasutusele võetud Kryxivia Shard Coin'i, on võrguvaluuta, mille abil saab Kryxivia maailmas mängida, osta, kaubelda ja omada uusi kraami Internetis, kuna sellega kaasnevad suuremad riskid ja majanduslikud sammud. omada tohutut pakkumist, et igal mängijal oleks mängida.",
+      "btn": "Täpsemalt dokumentatsioonis"
+    }
+  },
+  "stats": {
+    "title": "Mängude statistika",
+    "subtitle": "Kryxivia linn",
+    "p1": "Tulge mängu ja ehitage üles võimas tegelane, saage üheks Kryxivia linna kardetuimaks seiklejaks!",
+    "p2": "Kui liitute oma sõpradega Kryxivia kaevandusega, võitlete kõige kõvemate ülemustega ja tõestate oma väärtust kõigile, et saaksite seejärel premeerida maagiliste kryxitite ja esemetega, mida rüüstate.",
+    "online": "Mängijad võrgus",
+    "kxa-mc": "KXA Marketcap",
+    "kxs-mc": "KXS Marketcap",
+    "minted": "Vermitud Kryxivia NFT"
+  },
+  "press": {
+    "title": "Nad räägivad meist",
+    "subtitle": "Pressiartikkel"
+  },
+  "partners": {
+    "title": "Meie partnerid"
+  },
+  "footer": {
+    "buy-ps": "Osta Pancakeswapist",
+    "copyright": "<strong>Kryxivia © 2021</strong> . Kõik õigused kaitstud.",
+    "column": {
+      "$0": {
+        "title": "Vahendid",
+        "links": {
+          "$0": "Github",
+          "$1": "Dokumentatsioon",
+          "$2": "Keskmine",
+          "$3": "Müntide turu ülempiir",
+          "$4": "Lepingud Auditid",
+          "$5": "KXA likviidsusbassein"
+        }
+      },
+      "$1": {
+        "title": "Järgne meile",
+        "links": {
+          "$0": "Telegramm",
+          "$1": "Twitter",
+          "$2": "Reddit",
+          "$3": "Ebakõla",
+          "$4": "LinkedIn",
+          "$5": "Instagram"
+        }
+      }
+    }
+  }
+}
