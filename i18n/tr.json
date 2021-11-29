@@ -1,0 +1,87 @@
+{
+  "header": {
+    "nav": {
+      "home": "Ev",
+      "telegram": "Telgraf",
+      "documentation": "belgeler",
+      "team": "Takım Hakkında",
+      "litepaper": "basit kağıt",
+      "marketplace": "NFT Pazar Yeri",
+      "play": "Şimdi oyna",
+      "language": "Dilim"
+    }
+  },
+  "hero": {
+    "title": "DENEYİM KAZANMAK İÇİN OYNA",
+    "subtitle": "Blockchain üzerinde NFT'den yararlanan yenilikçi bir MMORPG oyunu",
+    "trailer": "Fragmanı izle",
+    "poweredby": "Tarafından desteklenmektedir",
+    "nodate": "Henüz tarih yok",
+    "btn": {
+      "title": "Şimdi oyna",
+      "subtitle": "Metamask'a Bağlan"
+    },
+    "presale": "Ön Satış : <strong class='live'>Canlı Program</strong>"
+  },
+  "about": {
+    "title": "Oyun Ekonomisi devrimi olarak kripto para birimleri",
+    "subtitle": "Etkileşimli ve eğlenceli 3D MMORPG",
+    "p1": "Kryxivia evrenindeki ilerlemenizden kazanılan kripto varlık getirileriyle desteklenen ödüller verdiğiniz NFT'leri toplarken şimdi arkadaşlarınızla etkileşimli ve eğlenceli bir 3D MMORPG'yi tarayıcınızda oynayın!",
+    "p2": "Kryxivia'da, size oyun deneyiminde en iyi ekonomiyi sunmak için blok zincirinin sunabileceği en iyi özelliklerden yararlanıyoruz.",
+    "kxa": {
+      "title": "KXA Simgesi",
+      "desc": "Binance Akıllı Zincirinde dağıtılan Kryxivia Coin jetonunun kısaltması olan KXA jetonu, zincir içi ödeme ve başlangıç paketleri, özel NFT satış etkinlikleri veya oyun içi para birimi KXS ile takas gibi özel paketler için temel kripto para birimidir.",
+      "btn": "Belgelerde daha fazla ayrıntı"
+    },
+    "kxs": {
+      "title": "KXS Simgesi",
+      "desc": "Binance Smart Chain'de dağıtılan Kryxivia Shard Coin'in kısaltması olan KXS jetonu, daha fazla risk ve ekonomik hamle taşıdığı için Kryxivia dünyasında oynamak, satın almak, ticaret yapmak ve yeni çevrimiçi öğelere sahip olmak için kullanılan çevrimiçi para birimidir. her oyuncunun oynayabileceği kadar büyük bir kaynağa sahip olmak.",
+      "btn": "Belgelerde daha fazla ayrıntı"
+    }
+  },
+  "stats": {
+    "title": "Oyun İstatistikleri",
+    "subtitle": "Kryxivia şehri",
+    "p1": "Oyuna gelin ve güçlü bir karakter oluşturun, Kryxivia şehrinin en korkulan maceracılarından biri olun!",
+    "p2": "Arkadaşlarınızla Kryxivia madenine katılarak, en zorlu patronlara karşı savaşacak ve herkese değerinizi kanıtlayacak ve ardından büyülü Kryxits ve yağmalayacağınız eşyalarla ödüllendirileceksiniz.",
+    "online": "oyuncular çevrimiçi",
+    "kxa-mc": "KXA Piyasa Değeri",
+    "kxs-mc": "KXS Piyasa Değeri",
+    "minted": "Kryxivia NFT Basılmış"
+  },
+  "press": {
+    "title": "bizim hakkımızda konuşuyorlar",
+    "subtitle": "Basın makalesi"
+  },
+  "partners": {
+    "title": "Bizim ortaklarımız"
+  },
+  "footer": {
+    "buy-ps": "Pancakeswap'ta satın alın",
+    "copyright": "<strong>Kryxivia © 2021</strong> . Her hakkı saklıdır.",
+    "column": {
+      "$0": {
+        "title": "Kaynaklar",
+        "links": {
+          "$0": "Github",
+          "$1": "belgeler",
+          "$2": "Orta",
+          "$3": "Madeni Para Piyasa Değeri",
+          "$4": "Sözleşme Denetimleri",
+          "$5": "KXA Likidite Havuzu"
+        }
+      },
+      "$1": {
+        "title": "Bizi takip et",
+        "links": {
+          "$0": "Telgraf",
+          "$1": "heyecan",
+          "$2": "Reddit",
+          "$3": "anlaşmazlık",
+          "$4": "LinkedIn",
+          "$5": "Instagram"
+        }
+      }
+    }
+  }
+}

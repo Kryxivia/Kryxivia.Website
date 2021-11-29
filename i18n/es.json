@@ -1,0 +1,87 @@
+{
+  "header": {
+    "nav": {
+      "home": "Hogar",
+      "telegram": "Telegrama",
+      "documentation": "Documentación",
+      "team": "Acerca del equipo",
+      "litepaper": "Litepaper",
+      "marketplace": "Mercado NFT",
+      "play": "Reproducir ahora",
+      "language": "Idioma"
+    }
+  },
+  "hero": {
+    "title": "JUEGA PARA GANAR EXPERIENCIA",
+    "subtitle": "Un innovador juego MMORPG que aprovecha NFT en blockchain",
+    "trailer": "Ver el trailer",
+    "poweredby": "Energizado por",
+    "nodate": "Sin fecha todavía",
+    "btn": {
+      "title": "Reproducir ahora",
+      "subtitle": "Conectarse a Metamask"
+    },
+    "presale": "Preventa: <strong class='live'>Programación en vivo</strong>"
+  },
+  "about": {
+    "title": "Las criptomonedas como revolución de la economía del juego",
+    "subtitle": "MMORPG 3D interactivo y divertido",
+    "p1": "¡Juega ahora un MMORPG 3D interactivo y divertido en tu navegador con tus amigos, mientras recolectas NFT que otorgas recompensas respaldadas por retornos de criptoactivos ganados por tu progreso en el universo Kryxivia!",
+    "p2": "En Kryxivia, aprovechamos las mejores características que puede ofrecer blockchain para brindarle la mejor economía en la experiencia de juego.",
+    "kxa": {
+      "title": "Token KXA",
+      "desc": "El token KXA, que significa token de moneda Kryxivia implementado en Binance Smart Chain, es la criptomoneda base para pagos en cadena y paquetes especiales como paquetes de inicio, eventos especiales de venta de NFT o intercambio por la moneda del juego KXS.",
+      "btn": "Más detalles en la documentación"
+    },
+    "kxs": {
+      "title": "Token KXS",
+      "desc": "El token KXS, que significa Kryxivia Shard Coin implementado en Binance Smart Chain, es la moneda en línea para jugar, comprar, intercambiar y tener nuevas piezas en línea en el mundo de Kryxivia, ya que conlleva más riesgos y movimientos económicos, necesita tener un suministro enorme para que todos los jugadores puedan tener algunos con los que jugar.",
+      "btn": "Más detalles en la documentación"
+    }
+  },
+  "stats": {
+    "title": "Estadísticas del juego",
+    "subtitle": "Ciudad de Kryxivia",
+    "p1": "¡Entra en el juego y construye un personaje poderoso, conviértete en uno de los aventureros más temidos de la ciudad de Kryxivia!",
+    "p2": "Al unirte a la mina Kryxivia con tus amigos, lucharás contra los jefes más duros y demostrarás tu valía a todos para luego ser recompensado con los Kryxits mágicos y los artículos que saquearás.",
+    "online": "Jugadores online",
+    "kxa-mc": "Marketcap de KXA",
+    "kxs-mc": "Marketcap de KXS",
+    "minted": "Kryxivia NFT acuñado"
+  },
+  "press": {
+    "title": "Ellos hablan de nosotros",
+    "subtitle": "Articulo de prensa"
+  },
+  "partners": {
+    "title": "Nuestros compañeros"
+  },
+  "footer": {
+    "buy-ps": "Comprar en Pancakeswap",
+    "copyright": "<strong>Kryxivia © 2021</strong> . Reservados todos los derechos.",
+    "column": {
+      "$0": {
+        "title": "Recursos",
+        "links": {
+          "$0": "Github",
+          "$1": "Documentación",
+          "$2": "Medio",
+          "$3": "Capitalización de mercado de monedas",
+          "$4": "Auditorías de contratos",
+          "$5": "Fondo común de liquidez de KXA"
+        }
+      },
+      "$1": {
+        "title": "Síguenos",
+        "links": {
+          "$0": "Telegrama",
+          "$1": "Gorjeo",
+          "$2": "Reddit",
+          "$3": "Discordia",
+          "$4": "LinkedIn",
+          "$5": "Instagram"
+        }
+      }
+    }
+  }
+}

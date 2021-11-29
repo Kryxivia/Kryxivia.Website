@@ -1,0 +1,87 @@
+{
+  "header": {
+    "nav": {
+      "home": "Rumah",
+      "telegram": "Telegram",
+      "documentation": "Dokumentasi",
+      "team": "Tentang Tim",
+      "litepaper": "Litepaper",
+      "marketplace": "Pasar NFT",
+      "play": "Main sekarang",
+      "language": "Bahasa"
+    }
+  },
+  "hero": {
+    "title": "BERMAIN UNTUK MENDAPATKAN PENGALAMAN",
+    "subtitle": "Gim MMORPG inovatif yang memanfaatkan NFT di blockchain",
+    "trailer": "Nonton cuplikan",
+    "poweredby": "Dipersembahkan oleh",
+    "nodate": "Belum ada tanggal",
+    "btn": {
+      "title": "Main sekarang",
+      "subtitle": "Hubungkan ke Metamask"
+    },
+    "presale": "Presale: <strong class='live'>Jadwal Langsung</strong>"
+  },
+  "about": {
+    "title": "Crypto-currency sebagai revolusi Gaming Economy",
+    "subtitle": "MMORPG 3D yang interaktif dan menyenangkan",
+    "p1": "Mainkan sekarang MMORPG 3D yang interaktif dan menyenangkan di browser Anda dengan teman-teman Anda, sambil mengumpulkan NFT yang Anda berikan hadiah yang didukung oleh pengembalian aset kripto yang dimenangkan dari kemajuan Anda di alam semesta Kryxivia!",
+    "p2": "Di Kryxivia, kami memanfaatkan fitur terbaik yang dapat ditawarkan blockchain untuk memberi Anda ekonomi terbaik dalam pengalaman bermain game.",
+    "kxa": {
+      "title": "Token KXA",
+      "desc": "Token KXA, yang merupakan singkatan dari token Kryxivia Coin yang digunakan di Binance Smart Chain adalah mata uang kripto dasar untuk pembayaran on-chain dan paket khusus seperti paket perdana, acara penjualan NFT khusus, atau penukaran mata uang dalam game KXS.",
+      "btn": "Lebih detail dalam dokumentasi"
+    },
+    "kxs": {
+      "title": "Token KXS",
+      "desc": "Token KXS, yang merupakan singkatan dari Kryxivia Shard Coin yang digunakan di Binance Smart Chain adalah mata uang online untuk bermain, membeli, berdagang, dan memiliki barang online baru di dunia Kryxivia, karena membawa lebih banyak risiko dan pergerakan ekonomi, yang dibutuhkan untuk memiliki persediaan besar sehingga setiap pemain dapat memiliki beberapa untuk dimainkan.",
+      "btn": "Lebih detail dalam dokumentasi"
+    }
+  },
+  "stats": {
+    "title": "Statistik Permainan",
+    "subtitle": "kota Kryxivia",
+    "p1": "Datang dalam game dan bangun karakter yang kuat, jadilah salah satu petualang paling ditakuti di kota Kryxivia!",
+    "p2": "Dengan bergabung di tambang Kryxivia bersama teman-teman Anda, Anda akan bertarung melawan bos terberat dan membuktikan nilai Anda kepada semua orang untuk kemudian diberi hadiah dengan Kryxits ajaib dan barang-barang yang akan Anda jarah.",
+    "online": "Pemain online",
+    "kxa-mc": "Kapitalisasi Pasar KXA",
+    "kxs-mc": "Kapitalisasi Pasar KXS",
+    "minted": "Kryxivia NFT Dicetak"
+  },
+  "press": {
+    "title": "Mereka membicarakan kita",
+    "subtitle": "Artikel pers"
+  },
+  "partners": {
+    "title": "Mitra kami"
+  },
+  "footer": {
+    "buy-ps": "Beli di Pancakeswap",
+    "copyright": "<strong>© 2021</strong> . Seluruh hak cipta.",
+    "column": {
+      "$0": {
+        "title": "Sumber daya",
+        "links": {
+          "$0": "Github",
+          "$1": "Dokumentasi",
+          "$2": "Medium",
+          "$3": "Kapitalisasi Pasar Koin",
+          "$4": "Audit Kontrak",
+          "$5": "Kolam Likuiditas KXA"
+        }
+      },
+      "$1": {
+        "title": "Ikuti kami",
+        "links": {
+          "$0": "Telegram",
+          "$1": "Indonesia",
+          "$2": "Reddit",
+          "$3": "Perselisihan",
+          "$4": "LinkedIn",
+          "$5": "Instagram"
+        }
+      }
+    }
+  }
+}
