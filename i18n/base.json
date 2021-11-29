@@ -1,0 +1,87 @@
+{
+    "header": {
+      "nav": {
+        "home": "",
+        "telegram": "Telegram",
+        "documentation": "",
+        "team": "",
+        "litepaper": "",
+        "marketplace": "",
+        "play": "",
+        "language": ""
+      }
+    },
+    "hero": {
+      "title": "",
+      "subtitle": "",
+      "trailer": "",
+      "poweredby": "",
+      "nodate": "",
+      "btn": {
+          "title": "",
+          "subtitle": ""
+      },
+      "presale": "Presale : <strong class='live'>Live Schedule</strong>"
+    },
+    "about": {
+      "title": "",
+      "subtitle": "",
+      "p1": "",
+      "p2": "",
+      "kxa": {
+          "title": "",
+          "desc": "",
+          "btn": ""
+      },
+      "kxs": {
+          "title": "",
+          "desc": "",
+          "btn": ""
+      }
+    },
+    "stats": {
+      "title": "",
+      "subtitle": "",
+      "p1": "",
+      "p2": "",
+      "online": "",
+      "kxa-mc": "",
+      "kxs-mc": "",
+      "minted": ""
+    },
+    "press": {
+      "title": "",
+      "subtitle": ""
+    },
+    "partners": {
+      "title": ""
+    },
+    "footer": {
+      "buy-ps": "",
+      "copyright": "<strong>Kryxivia © 2021</strong>. ",
+      "column": {
+        "$0": {
+          "title": "",
+          "links": {
+            "$0": "Github",
+            "$1": "",
+            "$2": "Medium",
+            "$3": "Coin Market Cap",
+            "$4": "",
+            "$5": ""
+          }
+        },
+        "$1": {
+          "title": "",
+          "links": {
+            "$0": "Telegram",
+            "$1": "Twitter",
+            "$2": "Reddit",
+            "$3": "Discord",
+            "$4": "LinkedIn",
+            "$5": "Instagram"
+          }
+        }
+      }
+    }
+}
