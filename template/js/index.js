@@ -8,7 +8,7 @@ var translator = new Translator({
   registerGlobally: '__',
   persist: true,
   persistKey: 'preferred_language',
-  filesLocation: '/i18n',
+  filesLocation: './i18n',
 });
 
 translator.fetch(["en", "fr", "es", "ru", "zh", "ar", "ja", "pt", "et", "tr", "hi", "vi", "id"]).then(() => {
