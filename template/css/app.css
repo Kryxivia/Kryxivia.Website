@@ -449,6 +449,7 @@
   .dropdown {
     position: relative;
     display: inline-block;
+    min-width: 115px;
   }
   
   
@@ -493,6 +494,7 @@
   
   .dropdown:hover .dropbtn {
       color:#fff;
+      min-width: 115px;
       text-shadow:0 3px 20px rgba(255,255,255,.5), 0 1px 5px rgba(255,255,255,.8);
   }
 
@@ -557,4 +559,20 @@
 
 .krx-li.flag-3.et a:before {
   background-position: -2856px 0;
+}
+
+.krx-li.flag-3.id a:before {
+  background-position: -4968px 0;
+}
+
+.krx-li.flag-3.vi a:before {
+  background-position: -3384px 0;
+}
+
+.krx-li.flag-3.hi a:before {
+  background-position: -2304px 0;
+}
+
+.krx-li.flag-3.tr a:before {
+  background-position: -432px 0;
 }

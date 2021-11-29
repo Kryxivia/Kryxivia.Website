@@ -11,7 +11,7 @@ var translator = new Translator({
   filesLocation: '/i18n',
 });
 
-translator.fetch(["en", "fr", "es", "ru", "zh", "ar", "jp", "pt", "et"]).then(() => {
+translator.fetch(["en", "fr", "es", "ru", "zh", "ar", "ja", "pt", "et", "tr", "hi", "vi", "id"]).then(() => {
   translator.translatePageTo(translator.defaultLanguage);
 });
 
