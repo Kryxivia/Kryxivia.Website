@@ -1,14 +1,14 @@
 {
   "header": {
     "nav": {
-      "home": "家",
+      "home": "主页",
       "telegram": "电报",
       "documentation": "文档",
       "team": "关于团队",
-      "litepaper": "轻纸",
+      "litepaper": "白皮书",
       "marketplace": "NFT 市场",
       "play": "现在播放",
-      "language": "语"
+      "language": "语言"
     }
   },
   "hero": {
