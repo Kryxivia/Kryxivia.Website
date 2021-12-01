@@ -210,10 +210,10 @@
     #ix .presale a.go .cntd{color:var(--green);}
     #ix .pancakeswap{margin:auto;margin-top:calc(15px + 10 * (100vw - 320px) / 1080);border-radius:50px;width:calc(130px + 20 * (100vw - 320px) / 1080);display:block;}
     #ix .pancakeswap img{width:100%;}
-    #ix .unity{--pb:calc(20px + 5 * (100vw - 320px) / 1080);bottom:var(--pb);left:var(--pb);position:absolute;font-size:14px;z-index:9000;display:flex;align-items:center;}
+    #ix .unity{--pb:calc(20px + 5 * (100vw - 320px) / 1080);bottom:var(--pb);left:var(--pb);position:absolute;font-size:18px;z-index:9000;display:flex;align-items:center;}
     #ix .unity svg{margin:0 5px;}
     #ix .unity .heart{width:18px;fill:var(--primary);}
-    #ix .unity .unit{height:18px;fill:var(--primary);}
+    #ix .unity .unit{height:22px;fill:var(--primary);}
 
 /* a */
     
