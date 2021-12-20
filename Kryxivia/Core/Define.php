@@ -12,7 +12,7 @@ session_start();
 error_reporting(0);
 ini_set("display_errors", 0);
 
-$http = 'http://';
+$http = 'https://';
 if(isset($_SERVER['HTTPS'])){
     $http = 'https://';
 }
