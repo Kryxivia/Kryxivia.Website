@@ -1,0 +1,24 @@
+{% import 'inc/macros.twig' as m %}
+<div id="tk">
+    {{m.img('img/top-ix.png', {width:2000,height:744,cls:'t-ix',alt:lang.all.name,lazy:true})}}
+    <div class="ct">
+        <div class="tkc">
+            <div class="sub" data-show>{{lang.token.sub}}</div>
+            <h2 class="h2" data-show>{{lang.token.title|raw}}</h2>
+            <div class="p" data-show>
+                {{lang.token.txt|raw}}
+            </div>
+            <div class="bt" data-show>
+                {{m.bn(lang.token.trailer, 'bn', {type:'button',onClick:'openTra()'})}}
+                {{m.bn(lang.token.gp, 'bn', {type:'button',onClick:'openTraGp()'})}}
+            </div>
+        </div>
+    </div>
+    {{m.img('img/bottom-ix.png', {width:2000,height:744,cls:'b-ix',alt:lang.all.name})}}
+    <div id="spark-tok" class="sparks" data-spark="#af43f9"></div>
+    <div class="bg">
+        <video poster="{{asset('img/no-video.webp')}}" playsinline autoplay muted loop preload="none">
+            <source src="{{asset('img/video.mp4')}}" type="video/mp4">
+        </video>
+    </div>
+</div>

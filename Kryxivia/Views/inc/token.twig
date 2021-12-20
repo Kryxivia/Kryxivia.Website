@@ -1,0 +1,15 @@
+{% import 'inc/macros.twig' as m %}
+<div id="tkb">
+    {{m.TokenShow(
+        'kxa',
+        lang.token.kxa.title|replace({'$KXA':'<span class="kxa">$KXA</span>'}),
+        lang.token.kxa.txt,
+        config.settings.kxa
+    )}}
+    {{m.TokenShow(
+        'kxs',
+        lang.token.kxs.title|replace({'$KXS':'<span class="kxs">$KXS</span>'}),
+        lang.token.kxs.txt,
+        config.settings.kxs
+    )}}
+</div>

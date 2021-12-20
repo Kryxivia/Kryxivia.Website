@@ -1,0 +1,18 @@
+$g.fromTo('.load img', 3, {scale:1.5}, {scale:1})
+$g.fromTo('#app', 1, {opacity:0}, {opacity:1,delay:1})
+
+let t = $g.timeline({delay:3})
+t.fromTo('.load', 1, {opacity:1,pointerEvents:'auto'}, {opacity:0,pointerEvents:'none',delay:1}, 'a')
+t.fromTo('#ix .bg', 2, {scale:1.2,opacity:0}, {scale:1,opacity:1,delay:.5}, 'a')
+t.fromTo('#h .top-h', 2, {y:'-30%',opacity:0}, {y:'0%',opacity:1,delay:1}, 'a')
+t.fromTo('#ix .b-ix img', 2, {y:'30%',opacity:0}, {y:'0%',opacity:1,delay:1}, 'a')
+t.fromTo('#h .hc', 1, {opacity:0}, {opacity:1,delay:1.5}, 'a')
+t.fromTo('#ix .sub', 1, {opacity:0}, {opacity:1,delay:2}, 'a')
+t.fromTo('#ix h1', 1, {y:50,opacity:0}, {y:0,opacity:1,delay:2.2}, 'a')
+t.fromTo('#ix h2', 1, {y:-30,opacity:0}, {y:0,opacity:1,delay:2.4}, 'a')
+t.fromTo('#ix .pck-c', 1, {x:-50,opacity:0}, {x:0,opacity:1,delay:2.6}, 'a')
+t.fromTo('#ix .mxc-c', 1, {x:50,opacity:0}, {x:0,opacity:1,delay:2.6}, 'a')
+t.fromTo('#ix .info', 1, {y:50,opacity:0}, {y:0,opacity:1,delay:2.8}, 'a')
+t.fromTo('#ix .sparks', 2, {opacity:0}, {opacity:1,delay:1.5,onComplete(){
+    document.querySelector('html').classList.add('loaded')
+}}, 'a')

@@ -1,0 +1,34 @@
+{% extends 'app.twig' %}
+{% import 'inc/macros.twig' as m %}
+{% block css %}
+	{{'team'|minifier(['mods/default', 'pages/team'])|raw}}
+{% endblock %}
+{% block head %}
+    {% include 'inc/head.twig' with {
+    	title: lang.head.team.title,
+    	desc: lang.head.team.desc,
+    	urlAlternate: '/team'
+	} %}
+{% endblock %}
+{% block content %}
+	{{m.Title(lang.team.title)}}
+	<main id="m" class="te">
+		<div class="ct">
+			{% for cat in 1..7 %}
+				{% if cat == 1 %}<h2>{{lang.team.group.1}}</h2>
+				{% elseif cat == 2 %}<h2>{{lang.team.group.2}}</h2>
+				{% elseif cat == 3 %}<h2>{{lang.team.group.3}}</h2>
+				{% elseif cat == 4 %}<h2>{{lang.team.group.4}}</h2>
+				{% elseif cat == 5 %}<h2>{{lang.team.group.5}}</h2>
+				{% elseif cat == 6 %}<h2>{{lang.team.group.6}}</h2>
+				{% elseif cat == 7 %}<h2>{{lang.team.group.7}}</h2>{% endif %}
+				{% for team in TeamMember if team.cat == cat %}
+					{{m.Team(team)}}
+				{% endfor %}
+			{% endfor %}
+			<div class="bt">
+				{{m.bn('En savoir plus', config.settings.doc~'kryxivia-team', {target:'_blank'})}}
+			</div>
+		</div>
+	</main>
+{% endblock %}

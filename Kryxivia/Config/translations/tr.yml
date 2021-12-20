@@ -1,0 +1,113 @@
+all:
+    name: Kryxivia
+    backh: Ana sayfaya geri dön
+    buy: Satın al %name%
+    soon: Çok yakında
+    close: Kapat
+    seeimg: Resmi görmek
+
+head:
+    home:
+        title: Kryxivia • Blok zincirinde NFT'den yararlanan yenilikçi bir MMORPG oyunu
+        desc: Kryxivia'ya hoş geldiniz! Blockchain üzerinde bir 3D NFT Multiverse MMORPG web oyunu. Kazanmak için yeni bir yenilikçi oyun deneyimi. Binance Akıllı Zincir ağının kullanımı.
+    devblog:
+        title: Devblog • Kryxivia oyunuyla ilgili güncellemeler ve haberler
+        desc: Krixiva tarafından yayınlanan tüm güncellemeleri ve haberleri keşfedin
+    team:
+        title: Ekip • Kryxivia ekibini keşfedin
+        desc: MMORPG Kryxivia ekibini oluşturan geliştiriciler, 3D sanatçılar, tasarımcılar ve programcılar.
+    gallery:
+        title: Galeri • Kryxivia dünyasını resimlerle keşfedin
+        desc: Kryxivia dünyasındaki ekran görüntüleri ve illüstrasyonlarla macerayı takip edin.
+
+header:
+    stack: Staking'e erişim
+    alpha: Erken alfa erişimi
+
+nav:
+    doc: Belgeler
+    team: Takım
+    dev: Devblog
+    gal: Galeri
+    lite: Litepaper
+
+home: 
+    sub: Blockchain üzerinde NFT'den yararlanan yenilikçi bir MMORPG oyunu
+    title: Oynayarak kazan deneyimi
+    now: Şimdi $KXA satın alın
+    made: Ile tasarlandı
+    propuls: Tahrik
+
+token:
+    doc: Belgeler
+    sub: Etkileşimli ve eğlenceli bir 3D MMORPG
+    title: <small>Bir oyun <strong class="dr">ekonomisi</strong> devrimi</small> olarak kripto para birimleri
+    trailer: Tanıtım videosu
+    gp: Oynanış
+    txt: |
+        <p>Kryxivia evrenindeki ilerlemenizden kazanılan kripto varlık getirileriyle desteklenen ödüller verdiğiniz NFT'leri toplarken şimdi arkadaşlarınızla etkileşimli ve eğlenceli bir 3D MMORPG'yi tarayıcınızda oynayın!</p>
+        <p>Kryxivia'da, size oyun deneyiminde en iyi ekonomiyi sunmak için blok zincirinin sunabileceği en iyi özelliklerden yararlanıyoruz.</p>
+    kxa:
+        title: $KXA Token
+        txt: |
+            <p>Binance Akıllı Zincirinde dağıtılan Kryxivia Coin jetonunun kısaltması olan KXA jetonu, zincir içi ödeme ve başlangıç paketleri, özel NFT satış etkinlikleri veya oyun içi para birimi KXS ile takas gibi özel paketler için temel kripto para birimidir.</p>
+    kxs:
+        title: $KXS Token
+        txt: |
+            <p>Binance Smart Chain'de dağıtılan Kryxivia Shard Coin'in kısaltması olan KXS jetonu, daha fazla risk ve ekonomik hamle taşıdığı için Kryxivia dünyasında oynamak, satın almak, ticaret yapmak ve yeni çevrimiçi öğelere sahip olmak için kullanılan çevrimiçi para birimidir. her oyuncunun oynayabileceği kadar büyük bir kaynağa sahip olmak.</p>
+
+press:
+    sub: Basın makaleleri
+    title: Bizim hakkımızda konuşuyorlar
+    read: Makaleyi okuyun
+
+partners:
+    sub: Bize güveniyorlar
+    title: Ortaklarımız
+
+info:
+    sub: Kryxivia şehri
+    title: Oyun <strong class="dr">istatistikleri</strong>
+    txt: |
+        <p>Oyuna gelin ve güçlü bir karakter oluşturun, Kryxivia şehrinin en korkulan maceracılarından biri olun!</p>
+        <p>Arkadaşlarınızla Kryxivia madenine katılarak, en zorlu patronlara karşı savaşacak ve herkese değerinizi kanıtlayacak ve ardından büyülü Kryxits ve yağmalayacağınız eşyalarla ödüllendirileceksiniz.</p>
+    player: Oyuncular çevrimiçi
+    capkxa: KXA Piyasa değeri
+    capkxs: KXS Piyasa değeri
+    nft: Kryxivia NFT Darp edilmiş
+    more: Daha fazlasını bul
+
+devblog:
+    title: <strong class="dr">Devblog</strong> Güncellemeler ve haberler
+    publish: |
+        %d%/%m%/%y% tarihinde %h%:%i% tarihinde gönderildi.
+    category:
+        1: Duyuru
+        2: Geliştirme
+        3: Güncelle
+        4: Etkinlik
+        5: Krixivia
+        6: Ağ
+        7: Çeşitli
+
+footer:
+    copy: <strong>Kryxivia © 2021-2022</strong>. Her hakkı saklıdır.
+    ress: Kaynaklar
+    follow: Bizi takip edin
+    contrat: Sözleşme Denetimleri
+    doc: Belgeler
+    article: Medium Nesne
+
+team:
+    title: <strong class="dr">Takım</strong> Kryxivia
+    group:
+        1: Lider
+        2: Oyun geliştirme
+        3: Tasarımcı, 3D ve VFX sanatçısı
+        4: Grafik tasarımcı ve web
+        5: Pazarlama
+        6: Ses tasarımcısı
+        7: Denetleme
+
+gallery:
+    title: <strong class="dr">Gallery</strong> Image

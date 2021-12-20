@@ -1,0 +1,112 @@
+all:
+    name: Kryxivia
+    backh: Tagasi kodulehele
+    buy: Osta edasi %name%
+    soon: Tulemas peagi
+    close: Sulge
+    seeimg: Vaata pilti
+
+head:
+    home:
+        title: Kryxivia • Uuenduslik MMORPG mäng, mis kasutab NFT-d plokiahelat kasutades
+        desc: Tere tulemast Kryxivia'sse! 3D NFT Multiverse MMORPG veebimäng plokiahelal. Uus uuenduslik mängukogemus, mida võita. Binance Smart Chain võrgu kasutamine.
+    devblog:
+        title: Devblog • Uuendused ja uudised mängu Kryxivia kohta
+        desc: Avasta kõik Krixivia poolt avaldatud uuendused & uudised
+    team:
+        title: Kryxivia meeskond • Avasta Kryxivia meeskond
+        desc: Arendajad, 3D-kunstnikud, disainerid & programmeerijad, kes moodustavad MMORPG Kryxivia meeskonna.
+    gallery:
+        title: Galerii • Avasta Kryxivia maailma piltides
+        desc: Jälgi seiklust Kryxivia maailma ekraanipiltide & illustratsioonide abil.
+
+header:
+    stack: Juurdepääs panusele
+    alpha: Varajane juurdepääs alfale
+
+nav:
+    doc: Dokumentatsioon
+    team: Meeskond
+    dev: Devblog
+    gal: Galerii
+    lite: Litepaper
+
+home: 
+    sub: Blockchaini NFT-i kasutav uuenduslik MMORPG-mäng.
+    title: Play-to-earn kogemus
+    now: Osta $KXA nüüd
+    made: Kujundatud koos
+    propuls: Powered by
+
+token:
+    doc: Dokumentatsioon
+    sub: Interaktiivne ja lõbus 3D MMORPG
+    title: <small><strong class="dr">Krüptovaluutad</strong> kui</small> mängumajanduse revolutsioon
+    trailer: Treiler
+    gp: Mängimine
+    txt: |
+        <p>Mängi nüüd interaktiivne ja lõbus 3D MMORPG oma brauseris koos oma sõpradega, kogudes samal ajal NFTs, et sa annad premeerib tagatud krüptovarade tagastab võitnud oma edusamme Kryxivia universumis!</p>
+        <p>Kryxivias kasutame parimaid funktsioone, mida plokiahelad suudavad pakkuda, et anda teile parim majandus mängukogemus.</p>
+    kxa:
+        title: $KXA Token
+        txt: |
+            <p>KXA token, mis tähistab Kryxivia Coin token kasutusele Binance Smart Chain on baas krüptovaluuta on-kettas makse ja eripakid nagu starter packs, eriline NFT müüa sündmusi, või vahetada mängu valuuta KXS.</p>
+    kxs:
+        title: $KXS Token
+        txt: |
+            <p>KXS token, mis tähistab Kryxivia Shard Coin kasutusele Binance Smart Chain on online valuuta mängida, osta, kaubelda, ja on uus online tükki asju Kryxivia maailmas, nagu see kannab rohkem riski ja majandusliku liigub, see peab olema suur pakkumine, nii et iga mängija saab olla mõned mängida.</p>
+
+press:
+    sub: Ajakirjandusartiklid
+    title: Nad räägivad meist
+    read: Loe artiklit
+
+partners:
+    sub: Nad usaldavad meid
+    title: Meie partnerid
+
+info:
+    sub: Kryxivia linn
+    title: Mängu <strong class="dr">statistika</strong>
+    txt: |
+        <p>Tule mängu ja ehita endale võimas tegelane, saa üheks Kryxivia linna kõige kardetavamaks seiklejaks!</p>
+        <p>Liitudes koos sõpradega Kryxivia kaevandusse, võitlete kõige raskemate ülemuste vastu ja tõestate oma väärtust kõigile, et siis saada auhinnaks maagilisi Kryxite ja esemeid, mida te rüüstate.</p>
+    player: Mängijad võrgus
+    capkxa: KXA Marketcap
+    capkxs: KXS Marketcap
+    nft: Kryxivia NFT Minted
+    more: Lisateave
+
+devblog:
+    title: <strong class="dr">Devblog</strong> Uuendused ja uudised
+    publish: Postitatud %d%/%m%/%y% %h%:%i%
+    category:
+        1: Teade
+        2: Arendus
+        3: Ajakohastamine
+        4: Sündmus
+        5: Kryxivia
+        6: Veebi
+        7: Diverse
+
+footer:
+    copy: <strong>Kryxivia © 2021-2022</strong>. Kõik õigused kaitstud.
+    ress: Ressursid
+    follow: Jälgi meid
+    contrat: Lepingud Auditid
+    doc: Dokumentatsioon
+    article: Medium artiklid
+
+team:
+    title: <strong class="dr">Meeskond</strong> Kryxivia
+    group:
+        1: Juht
+        2: Mängu arendamine
+        3: Disainer, 3D ja VFX kunstnik
+        4: Graafiline disainer ja veeb
+        5: Turundus
+        6: Helikujundaja
+        7: Modereerimine
+
+gallery:
+    title: <strong class="dr">Piltide</strong> galerii

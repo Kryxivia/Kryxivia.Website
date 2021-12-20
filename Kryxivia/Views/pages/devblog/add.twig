@@ -1,0 +1,152 @@
+{% extends 'app.twig' %}
+{% import 'inc/macros.twig' as m %}
+{% block css %}
+    {{'devblogAdd'|minifier(['mods/default', 'mods/devblogAdd', 'pages/devblog'])|raw}}
+{% endblock %}		
+{% block head %}
+    {% include 'inc/head.twig' with {
+    	title: 'Devblog Add',
+    	desc: 'Devblog Add',
+    	urlAlternate: null
+	} %}
+{% endblock %}
+{% block robots %}
+<meta name="robots" content="noindex, follow">
+{% endblock %}
+{% block content %}
+    <article itemscope="itemscope" class="dvs">
+    	<header id="t">
+            <div class="ct">
+                <h1><strong><textarea rows="1" placeholder="Titre de l'article" name="h1" oninput="auto_grow(this)"></textarea></strong></h1>
+            </div>
+            {{m.img('img/bottom-ix.png', {width:2000,height:744,cls:'b-ix',alt:lang.all.name})}}
+            <div class="bg">
+                <div></div>
+            </div>
+        </header>
+        <main id="m" itemprop="text">
+            <div class="ct">
+                <div class="bt" data-content>
+                    <button type="button" data-template="{{m.BlocArticle('title', null)|escape}}">Titre</button>
+                    <button type="button" data-template="{{m.BlocArticle('sub', null)|escape}}">Sous-titre</button>
+                    <button type="button" data-template="{{m.BlocArticle('txt', null)|escape}}">Texte</button>
+                    <button type="button" data-template="{{m.BlocArticle('img', null)|escape}}">Image</button>
+                </div>
+                <div class="inf">
+                    <h3>Image principale *</h3>
+                    <br>
+                    <figure data-img>
+                        <picture>
+                            <img data-cover src="{{asset('img/none.png')}}" alt="Ajouter une image">
+                        </picture>
+                        <div class="controls">
+                            <input type="file" name="contact_image_1">
+                        </div>
+                    </figure>
+                    <br>
+                    <h3>Description SEO de l'article *</h3>
+                    <br>
+                    <textarea rows="1" name="desc" oninput="auto_grow(this)"></textarea>
+                    <br>
+                    <br>
+                    <h3>Catégorie de l'article *</h3>
+                    <br>
+                    <select name="category">
+                        <option value="1">{{lang.devblog.category.1}}</option>
+                        <option value="2">{{lang.devblog.category.2}}</option>
+                        <option value="3">{{lang.devblog.category.3}}</option>
+                        <option value="4">{{lang.devblog.category.4}}</option>
+                        <option value="5">{{lang.devblog.category.5}}</option>
+                        <option value="6">{{lang.devblog.category.6}}</option>
+                        <option value="7">{{lang.devblog.category.7}}</option>
+                    </select>
+                    <br>
+                    <br>
+                    {{m.bn('Enregistrer', 'bn', {'data-save':true})}}
+                </div>
+            </div>
+        </main>
+    </article>
+{% endblock %}
+{% block plus %}
+    <div class="mss">Une erreur est survenue.</div>
+{% endblock %}
+{% block libjs %}
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        function auto_grow(element) {
+            element.style.height = "5px";
+            element.style.height = (element.scrollHeight)+"px";
+        }
+        $('[data-template]').on('click', e => {
+            e.preventDefault()
+            let $e = $(e.currentTarget)
+            let template = $e.data('template')
+            $('[data-content]').before(template)
+        });
+        $(document).on('click', '[data-img] picture', function() {
+            let $img = $(this).parents('[data-img]')
+            let previewImg = $img.find("img")
+            $img.find("input").trigger("click");
+            $img.find("input").change(function() {
+                var reader = new FileReader();
+                reader.onload = function(e) {
+                    var urll = e.target.result
+                    $(previewImg).attr("src", urll);
+                    previewImg.parent().css("background", "transparent");
+                    previewImg.show();
+                    previewImg.siblings("p").hide();
+                };
+                reader.readAsDataURL(this.files[0]);
+            });
+        });
+        $(document).on('click', '[data-remove]', function() {
+            $(this).parents('[data-bloc]').remove()
+        });
+        $('[data-save]').on('click', () => {
+            let template = {}
+            template.title = $('[name=h1]').val()
+            template.desc = $('[name=desc]').val()
+            template.category = $('[name=category]').val()
+            template.cover = $('[data-cover]').attr('src')
+            template.content = []
+            $('[data-bloc]').each(function(){
+                let bloc = {}
+                let $o = $(this)
+                let type = $o.data('bloc')
+                bloc.type = type
+                if(type == 'img'){
+                    bloc.c = $o.find('img').attr('src')
+                    bloc.a = $o.find('textarea').val()
+                }else{
+                    bloc.c = $o.find('textarea').val()
+                }
+                template.content.push(bloc)
+            })
+            $.ajax({
+                method: "POST",
+                url: "/save.php",
+                data: template,
+                dataType: 'json',
+                beforeSend(){
+                    $('html').addClass('saving')
+                    $('.mss').removeClass('show')
+                },
+                success(data){
+                    $('.mss').removeClass('show')
+                    $('html').removeClass('saving')
+                    document.location.href="{{link('devblog')}}/"+data.elts; 
+                },
+                complete(data){
+                    if(data.result == 'success'){
+                        $('.mss').removeClass('show')
+                        document.location.href="{{link('devblog')}}/"+data.elts; 
+                    }else{
+                        $('.mss').addClass('show')
+                    }
+                    $('html').removeClass('saving')
+                }
+            })
+        });
+    </script>
+{% endblock %}

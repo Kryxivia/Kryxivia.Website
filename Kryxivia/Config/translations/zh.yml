@@ -1,0 +1,112 @@
+all:
+    name: Kryxivia
+    backh: 回到主页
+    buy: 购买 %name%
+    soon: 即将推出
+    close: 关闭
+    seeimg: 见图片
+
+head:
+    home:
+        title: Kryxivia • 一个利用区块链上的NFT的创新MMORPG游戏
+        desc: 欢迎来到Kryxivia! 一个基于区块链的3D NFT多元宇宙MMORPG网页游戏。一个全新的创新游戏体验，赢得。使用Binance智能链网络。
+    devblog:
+        title: 开发博客 • 游戏的更新和新闻 Kryxivia
+        desc: 发现Krixiva发布的所有更新和新闻
+    team:
+        title: 团队 • 了解Kryxivia团队
+        desc: 开发人员、3D艺术家、设计师和程序员组成了MMORPG Kryxivia团队。
+    gallery:
+        title: 图库 • 在图片中发现Kryxivia的世界
+        desc: 通过屏幕截图和插图来了解克里希维亚世界的冒险。
+
+header:
+    stack: 获取桩基
+    alpha: 早期阿尔法访问
+
+nav:
+    doc: 文件
+    team: 团队
+    dev: 开发博客
+    gal: 画廊
+    lite: 锂电报纸
+
+home: 
+    sub: 一个创新的MMORPG游戏，利用区块链上的NFT
+    title: 寓教于乐的经验
+    now: 现在购买 $KXA
+    made: 设计有
+    propuls: 由以下单位提供
+
+token:
+    doc: 文件
+    sub: 一个互动和有趣的3D MMORPG
+    title: <small><strong class="dr">加密货币</strong> 作为</dmall> 一场游戏经济革命
+    trailer: 牵引车
+    gp: 游戏玩法
+    txt: |
+        <p>现在在你的浏览器上与你的朋友一起玩一个互动和有趣的3D MMORPG，同时收集NFT，你给的奖励是由你在Kryxivia宇宙中的进展赢得的加密资产回报支持的!</p>
+        <p>在Kryxivia，我们利用区块链所能提供的最佳功能，为您提供最佳的经济游戏体验。</p>
+    kxa:
+        title: $KXA Token
+        txt: |
+            <p>KXA代币是部署在Binance智能链上的Kryxivia Coin代币的代表，是链上支付和特殊包的基础加密货币，如启动包、特殊NFT销售活动，或兑换游戏内货币KXS。</p>
+    kxs:
+        title: $KXS Token
+        txt: |
+            <p>KXA代币是部署在Binance智能链上的Kryxivia Coin代币的代表，是链上支付和特殊包的基础加密货币，如启动包、特殊NFT销售活动，或兑换游戏内货币KXS。</p>
+
+press:
+    sub: 新闻文章
+    title: 他们谈到了我们
+    read: 阅读文章
+
+partners:
+    sub: 他们信任我们
+    title: 我们的合作伙伴
+
+info:
+    sub: Kryxivia市
+    title: 游戏 <strong class="dr">统计数据</strong>
+    txt: |
+        <p>来游戏中建立一个强大的角色，成为Kryxivia城市中最令人畏惧的冒险家之一!</p>
+        <p>通过与你的朋友一起加入Kryxivia矿场，你将与最难对付的老板战斗，向大家证明你的价值，然后得到神奇的Kryxits和物品的奖励，你将在其中掠夺。</p>
+    player: 玩家在线
+    capkxa: KXA 市场评估
+    capkxs: KXS 市场评估
+    nft: Kryxivia NFT 铭德
+    more: 了解更多
+
+devblog:
+    title: <strong class="dr">开发博客</strong> 更新和新闻
+    publish: 发表于 %d%/%m%/%y% at %h%:%i%
+    category:
+        1: 公告
+        2: 发展
+        3: 更新
+        4: 活动
+        5: Kryxivia
+        6: 网络
+        7: 多样化
+
+footer:
+    copy: <strong>Kryxivia © 2021-2022</strong>. 保留所有权利。
+    ress: 资源
+    follow: 关注我们
+    contrat: 合同审计
+    doc: 文件
+    article: Medium 文章
+
+team:
+    title: <strong class="dr">团队</strong> Kryxivia
+    group:
+        1: 领导
+        2: 游戏开发
+        3: 设计师，3D和VFX艺术家
+        4: 平面设计师和网络
+        5: 市场营销
+        6: 音效设计师
+        7: 调节
+
+gallery:
+    title: <strong class="dr">画廊</strong> 图片

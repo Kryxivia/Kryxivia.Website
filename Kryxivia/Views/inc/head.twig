@@ -1,0 +1,17 @@
+<meta charset="UTF-8">
+<title>{{title}}</title>
+<meta name="theme-color" content="#{{config.params.thcolor}}">
+<meta name="msapplication-TileColor" content="#{{config.params.thcolor}}">
+<link rel="icon" type="image/png" href="{{asset('img/favicon.png')}}">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta content="{{desc}}" name="description">
+<meta content="{{title}}" property="og:title">
+<meta content="{{desc}}" property="og:description">
+<meta content="{{host}}assets/img/{{thumb != null ? thumb : 'thumbnail.png'}}" property="og:image">
+<meta content="{{title}}" property="twitter:title">
+<meta content="{{desc}}" property="twitter:description">
+<meta content="{{host}}assets/img/{{thumb != null ? thumb : 'thumbnail.png'}}" property="twitter:image">
+ <link rel="alternate" hreflang="x-default" href="{{host}}en{{urlAlternate != null ? urlAlternate}}">
+{% for code in config.params.lang|split(',') if code != langCode %}
+ <link rel="alternate" hreflang="{{code}}" href="{{host~code}}{{urlAlternate != null ? urlAlternate}}">
+{% endfor %}

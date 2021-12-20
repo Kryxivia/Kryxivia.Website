@@ -1,0 +1,112 @@
+all:
+    name: Kryxivia
+    backh: Kembali ke beranda
+    buy: Beli di %name%
+    soon: Segera akan datang
+    close: Menutup
+    seeimg: Lihat gambar
+
+head:
+    home:
+        title: Kryxivia • Gim MMORPG inovatif yang memanfaatkan NFT di blockchain
+        desc: Selamat datang di Kryxivia! Game web 3D NFT Multiverse MMORPG di blockchain. Pengalaman gaming inovatif baru untuk dimenangkan. Penggunaan jaringan Binance Smart Chain.
+    devblog:
+        title: Koran • Pembaruan & berita dari game Kryxivia
+        desc: Temukan semua pembaruan & berita yang diterbitkan oleh Krixiva
+    team:
+        title: Tim • Temukan tim Kryxivia
+        desc: Pengembang, seniman 3D, desainer & programmer yang membentuk tim MMORPG Kryxivia.
+    gallery:
+        title: Galeri • Temukan dunia Kryxivia dalam gambar
+        desc: Ikuti petualangan dengan screenshot & ilustrasi di dunia Kryxivia.
+
+header:
+    stack: Akses untuk mengintai
+    alpha: Akses alfa awal
+
+nav:
+    doc: Dokumentasi
+    team: Tim
+    dev: Koran
+    gal: Galeri
+    lite: Litepaper
+
+home: 
+    sub: Gim MMORPG inovatif yang memanfaatkan NFT di blockchain
+    title: Pengalaman bermain untuk mendapatkan
+    now: Beli $KXA sekarang
+    made: Dirancang dengan
+    propuls: Dipersembahkan oleh
+
+token:
+    doc: Dokumentasi
+    sub: MMORPG 3D yang interaktif dan menyenangkan
+    title: <small><strong class="dr">Crypto-currency</strong> sebagai</small> revolusi ekonomi game
+    trailer: Trailer
+    gp: Gameplay
+    txt: |
+        <p>Mainkan sekarang MMORPG 3D yang interaktif dan menyenangkan di browser Anda dengan teman-teman Anda, sambil mengumpulkan NFT yang Anda berikan hadiah yang didukung oleh pengembalian aset kripto yang dimenangkan dari kemajuan Anda di alam semesta Kryxivia!</p>
+        <p>Di Kryxivia, kami memanfaatkan fitur terbaik yang dapat ditawarkan blockchain untuk memberi Anda ekonomi terbaik dalam pengalaman bermain game.</p>
+    kxa:
+        title: $KXA Token
+        txt: |
+            <p>Token KXA, yang merupakan singkatan dari token Kryxivia Coin yang digunakan di Binance Smart Chain adalah mata uang kripto dasar untuk pembayaran on-chain dan paket khusus seperti paket perdana, acara penjualan NFT khusus, atau penukaran mata uang dalam game KXS.</p>
+    kxs:
+        title: $KXS Token
+        txt: |
+            <p>Token KXS, yang merupakan singkatan dari Kryxivia Shard Coin yang digunakan di Binance Smart Chain adalah mata uang online untuk bermain, membeli, berdagang, dan memiliki barang online baru di dunia Kryxivia, karena membawa lebih banyak risiko dan pergerakan ekonomi, diperlukan untuk memiliki persediaan yang besar sehingga setiap pemain dapat memiliki beberapa untuk dimainkan.</p>
+
+press:
+    sub: Artikel pers
+    title: Mereka membicarakan kita
+    read: Baca artikel
+
+partners:
+    sub: Mereka mempercayai kita
+    title: Mitra kami
+
+info:
+    sub: Kota Kryxivia
+    title: <strong class="dr">Statistik</strong> permainan
+    txt: |
+        <p>Datang dalam game dan bangun karakter yang kuat, jadilah salah satu petualang paling ditakuti di kota Kryxivia!</p>
+        <p>Dengan bergabung di tambang Kryxivia bersama teman-teman Anda, Anda akan bertarung melawan bos terberat dan membuktikan nilai Anda kepada semua orang untuk kemudian diberi hadiah dengan Kryxits ajaib dan barang-barang yang akan Anda jarah.</p>
+    player: Pemain online
+    capkxa: KXA Kapitalisasi pasar
+    capkxs: KXS Kapitalisasi pasar
+    nft: Kryxivia NFT dicetak
+    more: Temukan lebih banyak lagi
+
+devblog:
+    title: <strong class="dr">Koran</strong> Pembaruan & berita
+    publish: Diposting %d%/%m%/%y% pukul %h%.%i%
+    category:
+        1: Pengumuman
+        2: Pengembangan
+        3: Perbarui
+        4: Acara
+        5: Kryxivia
+        6: Web
+        7: Lain-lain
+
+footer:
+    copy: <strong>Kryxivia © 2021-2022</strong>. Seluruh hak cipta.
+    ress: Sumber daya
+    follow: Ikuti kami
+    contrat: Audit Kontrak
+    doc: Dokumentasi
+    article: Medium Artikel
+
+team:
+    title: <strong class="dr">Tim</strong> Kryxivia
+    group:
+        1: Pemimpin
+        2: Pengembangan game
+        3: Desainer, artis 3D & VFX
+        4: Desainer grafis & web
+        5: Pemasaran
+        6: Desainer suara
+        7: Moderasi
+
+gallery:
+    title: <strong class="dr">Galeri</strong> gambar

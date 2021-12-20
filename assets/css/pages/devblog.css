@@ -1,0 +1,35 @@
+/* devblog */
+
+#dv{--mrg:calc(10px + 5 * (100vw - 320px) / 1080);display:flex;align-items:flex-start;}
+#dv .l{flex:1;display:flex;flex-wrap:wrap;}
+#dv .dva{width:0;}
+#dv .article{box-shadow:var(--bx_2), 0 0 50px rgba(0,0,0,.5);width:calc(50% - var(--mrg)*2);margin:var(--mrg);background:linear-gradient(to bottom, var(--color_6) 70%, rgba(var(--color_5_rgb),.3) 100%);border-radius:var(--radius_1);}
+#dv .article .cov{width:100%;display:block;border-radius:var(--radius_1);overflow:hidden;box-shadow:var(--bx_2), 0 0 50px rgba(0,0,0,.5);height:calc(150px + 50 * (100vw - 320px) / 1080);}
+#dv .article .cov:before{transition:.4s;content:'';position:absolute;left:0;top:0;width:100%;height:100%;box-shadow:var(--bx_2);background-color:var(--bg_1);z-index:5;opacity:.3;}
+#dv .article .cov:hover:before{opacity:0}
+#dv .article .cov img{transition:.4s;position:absolute;top:0;left:0;object-position:center center;width:100%;height:100%;object-fit:cover;}
+#dv .article .cov:hover img{transform:scale(1.1);}
+#dv .article header{padding:calc(20px + 3 * (100vw - 320px) / 1080);}
+#dv h2{margin:0 0 calc(5px + 5 * (100vw - 320px) / 1080);font-family:var(--ff2);text-transform:uppercase;font-size:calc(18px + 4 * (100vw - 320px) / 1080);}
+#dv h2 a:hover{color:var(--color_2);}
+#dv .meta{color:var(--color_7);font-size:calc(12px + 1 * (100vw - 320px) / 1080);}
+#dv .nb{display:flex;align-items:center;justify-content:center;font-size:18px;font-weight:bold;padding-top:2px;box-shadow:var(--bx_2);background:linear-gradient(to bottom, var(--color_2), var(--color_3));border-radius:50%;position:absolute;top:10px;left:10px;z-index:100;width:30px;height:30px;}
+
+/* devblog */
+
+.dvs .ct{width:calc(700px + 200 * (100vw - 320px) / 1080);}
+.dvs .ct > * + *{margin-top:calc(25px + 5 * (100vw - 320px) / 1080);}
+.dvs h2{margin:calc(15px + 5 * (100vw - 320px) / 1080) 0 calc(5px + 5 * (100vw - 320px) / 1080);font-family:var(--ff2);text-transform:uppercase;font-size:calc(20px + 5 * (100vw - 320px) / 1080);}
+.dvs figure{width:calc(700px + 200 * (100vw - 320px) / 1080);max-width:100%;margin:auto;text-align:center;}
+.dvs figure picture{border-radius:var(--radius_1);overflow:hidden;}
+.dvs figure picture img{width:auto;}
+.dvs figure figcaption{font-size:13px;font-style:italic;margin-top:5px;opacity:.5;}
+
+/* media */
+    
+@media screen and (max-width:850px){
+
+    #dv .article{width:100%;}
+    #dv .article .cov{height:calc(200px + 50 * (100vw - 320px) / 1080);}
+   
+}
