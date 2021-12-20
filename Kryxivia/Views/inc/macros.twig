@@ -159,7 +159,7 @@
 {# article #}
 {% macro Article(a, n) %}
     {% import _self as this %}
-    {% set at = a.lang[langCode] %}
+    {% set at = a.lang['en'] %}
     {% set title = at.title %}
     {% set href = 'devblog/'~a.lang['en'].title|urlTransform %}
     <article class="article" itemtype="https://schema.org/CreativeWork" itemscope="itemscope">

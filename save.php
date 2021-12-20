@@ -25,9 +25,22 @@ $Kryxivia = new Kryxivia();
 $result = 'error';
 $elts = null;
 
+
 if(isset($_SESSION['log'])){
     if($_SESSION['log'] == $config->log->pass){
 
+$url = "test.json";
+
+$all = false;
+$arrContextOptions = array(
+    "ssl" => array(
+        "verify_peer" => false,
+        "verify_peer_name" => false,
+    )
+);  
+$result = file_get_contents($url, false, stream_context_create($arrContextOptions));
+$result = json_decode($result, JSON_UNESCAPED_UNICODE);
+$template = $result;
     function urlTransform($url){
 
         $lettre = array(
@@ -84,41 +97,43 @@ if(isset($_SESSION['log'])){
         // $tr = new GoogleTranslate('en');
         // $tr->setSource('en');
         $json = [];
-        $json['cover'] = save_base64_image($_POST['cover'], 'kryxivia_cover_'.urlTransform($_POST['title']));
-        $json['category'] = $_POST['category'];
+        $json['cover'] = save_base64_image($template['cover'], 'kryxivia_cover_'.urlTransform($template['title']));
+        $json['category'] = $template['category'];
         $json['date'] = time();
 
         foreach (explode(",",$config->params->lang) as $value) {
-            $json['lang'][$value] = [];
-            // $tr->setTarget($value);
-            // $json['lang'][$value]['title'] = $tr->translate($_POST['title']);
-            $json['lang'][$value]['title'] = $_POST['title'];
-            $json['lang'][$value]['desc'] = $_POST['desc'];
-            if(isset($_POST['content'])){
-                $pos = 1;
-                foreach ($_POST['content'] as $v) {
-                    $col = [];
-                    $col['type'] = $v['type'];
+            if($value == 'en'){
+                $json['lang'][$value] = [];
+                // $tr->setTarget($value);
+                // $json['lang'][$value]['title'] = $tr->translate($template['title']);
+                $json['lang'][$value]['title'] = $template['title'];
+                $json['lang'][$value]['desc'] = $template['desc'];
+                if(isset($template['content'])){
+                    $pos = 1;
+                    foreach ($template['content'] as $v) {
+                        $col = [];
+                        $col['type'] = $v['type'];
 
-                    if($v['type'] == 'img'){
-                        $col['c'] = save_base64_image($v['c'], 'kryxivia_'.urlTransform($_POST['title']).'_'.urlTransform($v['a']));
-                        $col['a'] = $v['a'];
-                    }else{
-                        $col['c'] = $v['c'];
+                        if($v['type'] == 'img'){
+                            $col['c'] = save_base64_image($v['c'], 'kryxivia_'.urlTransform($template['title']).'_'.urlTransform($v['a']));
+                            $col['a'] = $v['a'];
+                        }else{
+                            $col['c'] = $v['c'];
+                        }
+
+                        $json['lang'][$value]['content'][$pos] = $col;
+                        $pos++;
                     }
-
-                    $json['lang'][$value]['content'][$pos] = $col;
-                    $pos++;
                 }
             }
         }
         
-        $fp = fopen('devblog/'.urlTransform($_POST['title']).'.json', 'w');
+        $fp = fopen('devblog/'.urlTransform($template['title']).'.json', 'w');
         fwrite($fp, json_encode($json));
         fclose($fp);
 
         $result = 'success';
-        $elts = urlTransform($_POST['title']);
+        $elts = urlTransform($template['title']);
 
     }
 }

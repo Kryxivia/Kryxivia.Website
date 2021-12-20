@@ -1,7 +1,7 @@
 {% extends 'app.twig' %}
 {% import 'inc/macros.twig' as m %}
 {% set a = article %}
-{% set at = a.lang[langCode] %}
+{% set at = a.lang['en'] %}
 {% block css %}
     {{'devblog'|minifier(['mods/default', 'pages/devblog'])|raw}}
 {% endblock %}		
