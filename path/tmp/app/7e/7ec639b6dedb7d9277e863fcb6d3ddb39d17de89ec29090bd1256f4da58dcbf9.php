@@ -856,7 +856,7 @@ class __TwigTemplate_daeb858c5bd3a877158f148defb1f7cc247f398b5310467e7b4ad39b949
                 echo ">
             ";
                 // line 201
-                echo (((($context["content"] ?? null) == null)) ? (twig_call_macro($macros["this"], "macro_Fd", [twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["lang"] ?? null), "form", [], "any", false, false, false, 201), "txt", [], "any", false, false, false, 201)], 201, $context, $this->getSourceContext())) : (nl2br(twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["content"] ?? null), "c", [], "any", false, false, false, 201), "html", null, true))));
+                echo (((($context["content"] ?? null) == null)) ? (twig_call_macro($macros["this"], "macro_Fd", [twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["lang"] ?? null), "form", [], "any", false, false, false, 201), "txt", [], "any", false, false, false, 201)], 201, $context, $this->getSourceContext())) : (nl2br(twig_get_attribute($this->env, $this->source, ($context["content"] ?? null), "c", [], "any", false, false, false, 201))));
                 echo "
         </div>
     ";
@@ -1374,7 +1374,7 @@ class __TwigTemplate_daeb858c5bd3a877158f148defb1f7cc247f398b5310467e7b4ad39b949
         <h3{{content == null ? ' data-bloc='~type}}>{{content == null ? this.Fd(lang.form.sub) : content.c|nl2br|raw}}</h3>
     {% elseif type == 'txt' %}
         <div class=\"p\"{{content == null ? ' data-bloc='~type}}>
-            {{content == null ? this.Fd(lang.form.txt) : content.c|nl2br|raw}}
+            {{content == null ? this.Fd(lang.form.txt) : content.c|raw|nl2br}}
         </div>
     {% elseif type == 'img' %}
         {% if content == null %}

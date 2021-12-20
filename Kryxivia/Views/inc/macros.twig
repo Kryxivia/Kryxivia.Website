@@ -198,7 +198,7 @@
         <h3{{content == null ? ' data-bloc='~type}}>{{content == null ? this.Fd(lang.form.sub) : content.c|nl2br|raw}}</h3>
     {% elseif type == 'txt' %}
         <div class="p"{{content == null ? ' data-bloc='~type}}>
-            {{content == null ? this.Fd(lang.form.txt) : content.c|nl2br|raw}}
+            {{content == null ? this.Fd(lang.form.txt) : content.c|raw|nl2br}}
         </div>
     {% elseif type == 'img' %}
         {% if content == null %}

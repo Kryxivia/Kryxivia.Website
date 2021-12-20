@@ -14,9 +14,7 @@ ini_set("display_errors", 0);
 
 $http = 'http://';
 if(isset($_SERVER['HTTPS'])){
-    if($_SERVER['HTTPS'] == "on"){
-        $http = 'https://';
-    }
+    $http = 'https://';
 }
 $directLinkLocal = NULL;
 
