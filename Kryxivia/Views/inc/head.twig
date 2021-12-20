@@ -12,6 +12,6 @@
 <meta content="{{desc}}" property="twitter:description">
 <meta content="{{host}}assets/img/{{thumb != null ? thumb : 'thumbnail.png'}}" property="twitter:image">
  <link rel="alternate" hreflang="x-default" href="{{host}}en{{urlAlternate != null ? urlAlternate}}">
-{% for code in config.params.lang|split(',') if code != langCode %}
+{% for code in config.params.lang|split(',') if code != langCode and urlAlternate != null %}
  <link rel="alternate" hreflang="{{code}}" href="{{host~code}}{{urlAlternate != null ? urlAlternate}}">
 {% endfor %}

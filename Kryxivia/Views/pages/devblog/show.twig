@@ -13,7 +13,7 @@
         thumb: 'devblog/'~a.cover
 	} %}
     {% for code in config.params.lang|split(',') if code != langCode %}
-        <link rel="alternate" href="{{host~code}}/devblog/{{(a.lang[code].title)|urlTransform}}" hreflang="{{code}}">
+        <link rel="alternate" href="{{host~code}}/devblog/{{(a.lang['en'].title)|urlTransform}}" hreflang="{{code}}">
     {% endfor %}
     <script type="application/ld+json" class="yoast-schema-graph">
         {

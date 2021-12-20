@@ -95,7 +95,7 @@ class __TwigTemplate_4132eb489f5a85a6483a31f060df8d5bc9ede1570061be67735b30a20fe
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable(twig_split_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["config"] ?? null), "params", [], "any", false, false, false, 15), "lang", [], "any", false, false, false, 15), ","));
         foreach ($context['_seq'] as $context["_key"] => $context["code"]) {
-            if (($context["code"] != ($context["langCode"] ?? null))) {
+            if ((($context["code"] != ($context["langCode"] ?? null)) && (($context["urlAlternate"] ?? null) != null))) {
                 // line 16
                 echo " <link rel=\"alternate\" hreflang=\"";
                 echo twig_escape_filter($this->env, $context["code"], "html", null, true);
@@ -142,7 +142,7 @@ class __TwigTemplate_4132eb489f5a85a6483a31f060df8d5bc9ede1570061be67735b30a20fe
 <meta content=\"{{desc}}\" property=\"twitter:description\">
 <meta content=\"{{host}}assets/img/{{thumb != null ? thumb : 'thumbnail.png'}}\" property=\"twitter:image\">
  <link rel=\"alternate\" hreflang=\"x-default\" href=\"{{host}}en{{urlAlternate != null ? urlAlternate}}\">
-{% for code in config.params.lang|split(',') if code != langCode %}
+{% for code in config.params.lang|split(',') if code != langCode and urlAlternate != null %}
  <link rel=\"alternate\" hreflang=\"{{code}}\" href=\"{{host~code}}{{urlAlternate != null ? urlAlternate}}\">
 {% endfor %}", "inc/head.twig", "/Users/nuixw/Documents/Localhost/Kryxivia.Website/Kryxivia/Views/inc/head.twig");
     }

@@ -82,7 +82,7 @@ class __TwigTemplate_91f6f8d30f5f6497f18df587f135c3ae0b0b89b8705a7a948383bf50977
                 echo "        <link rel=\"alternate\" href=\"";
                 echo twig_escape_filter($this->env, (($context["host"] ?? null) . $context["code"]), "html", null, true);
                 echo "/devblog/";
-                echo twig_escape_filter($this->env, $this->extensions['Core\Extension']->urlTransform(twig_get_attribute($this->env, $this->source, (($__internal_62824350bc4502ee19dbc2e99fc6bdd3bd90e7d8dd6e72f42c35efd048542144 = twig_get_attribute($this->env, $this->source, ($context["a"] ?? null), "lang", [], "any", false, false, false, 16)) && is_array($__internal_62824350bc4502ee19dbc2e99fc6bdd3bd90e7d8dd6e72f42c35efd048542144) || $__internal_62824350bc4502ee19dbc2e99fc6bdd3bd90e7d8dd6e72f42c35efd048542144 instanceof ArrayAccess ? ($__internal_62824350bc4502ee19dbc2e99fc6bdd3bd90e7d8dd6e72f42c35efd048542144[$context["code"]] ?? null) : null), "title", [], "any", false, false, false, 16)), "html", null, true);
+                echo twig_escape_filter($this->env, $this->extensions['Core\Extension']->urlTransform(twig_get_attribute($this->env, $this->source, (($__internal_62824350bc4502ee19dbc2e99fc6bdd3bd90e7d8dd6e72f42c35efd048542144 = twig_get_attribute($this->env, $this->source, ($context["a"] ?? null), "lang", [], "any", false, false, false, 16)) && is_array($__internal_62824350bc4502ee19dbc2e99fc6bdd3bd90e7d8dd6e72f42c35efd048542144) || $__internal_62824350bc4502ee19dbc2e99fc6bdd3bd90e7d8dd6e72f42c35efd048542144 instanceof ArrayAccess ? ($__internal_62824350bc4502ee19dbc2e99fc6bdd3bd90e7d8dd6e72f42c35efd048542144["en"] ?? null) : null), "title", [], "any", false, false, false, 16)), "html", null, true);
                 echo "\" hreflang=\"";
                 echo twig_escape_filter($this->env, $context["code"], "html", null, true);
                 echo "\">
@@ -204,7 +204,7 @@ class __TwigTemplate_91f6f8d30f5f6497f18df587f135c3ae0b0b89b8705a7a948383bf50977
         thumb: 'devblog/'~a.cover
 \t} %}
     {% for code in config.params.lang|split(',') if code != langCode %}
-        <link rel=\"alternate\" href=\"{{host~code}}/devblog/{{(a.lang[code].title)|urlTransform}}\" hreflang=\"{{code}}\">
+        <link rel=\"alternate\" href=\"{{host~code}}/devblog/{{(a.lang['en'].title)|urlTransform}}\" hreflang=\"{{code}}\">
     {% endfor %}
     <script type=\"application/ld+json\" class=\"yoast-schema-graph\">
         {
