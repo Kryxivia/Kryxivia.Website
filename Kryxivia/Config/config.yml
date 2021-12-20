@@ -10,8 +10,8 @@ params:
     thcolor: 843eef
 
     cache: # ne pas modifier les chemins /!\
-        minifier: false # false OR true
-        app: false # false OR path/tmp/app
+        minifier: true # false OR true
+        app: path/tmp/app # false OR path/tmp/app
 
 log:
     user: aa909a19101cdb6cae21bd42d09219260eab77e117dc130394ee357806d08bd089770749ca8a44ca95aa6a634b90535fde6bcb904cf9a65dbc797ccb3f95bf23
