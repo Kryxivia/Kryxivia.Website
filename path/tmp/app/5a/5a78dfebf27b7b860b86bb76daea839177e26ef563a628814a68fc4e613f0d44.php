@@ -109,6 +109,16 @@ class __TwigTemplate_3ce8777a604bf6d30ec2ae1f5ff273f3ee6f80884af5b6daf60107e01db
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['code'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
+        // line 18
+        echo "<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-7ZJBRGJFY1\"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7ZJBRGJFY1');
+</script>";
     }
 
     public function getTemplateName()
@@ -123,7 +133,7 @@ class __TwigTemplate_3ce8777a604bf6d30ec2ae1f5ff273f3ee6f80884af5b6daf60107e01db
 
     public function getDebugInfo()
     {
-        return array (  100 => 16,  95 => 15,  89 => 14,  83 => 13,  79 => 12,  75 => 11,  69 => 10,  65 => 9,  61 => 8,  57 => 7,  52 => 5,  48 => 4,  44 => 3,  40 => 2,  37 => 1,);
+        return array (  113 => 18,  100 => 16,  95 => 15,  89 => 14,  83 => 13,  79 => 12,  75 => 11,  69 => 10,  65 => 9,  61 => 8,  57 => 7,  52 => 5,  48 => 4,  44 => 3,  40 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -144,6 +154,15 @@ class __TwigTemplate_3ce8777a604bf6d30ec2ae1f5ff273f3ee6f80884af5b6daf60107e01db
  <link rel=\"alternate\" hreflang=\"x-default\" href=\"{{host}}en{{urlAlternate != null ? urlAlternate}}\">
 {% for code in config.params.lang|split(',') if code != langCode and urlAlternate != null %}
  <link rel=\"alternate\" hreflang=\"{{code}}\" href=\"{{host~code}}{{urlAlternate != null ? urlAlternate}}\">
-{% endfor %}", "inc/head.twig", "E:\\wamp64\\www\\Kryxivia\\Views\\inc\\head.twig");
+{% endfor %}
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-7ZJBRGJFY1\"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7ZJBRGJFY1');
+</script>", "inc/head.twig", "E:\\wamp64\\www\\Kryxivia\\Views\\inc\\head.twig");
     }
 }

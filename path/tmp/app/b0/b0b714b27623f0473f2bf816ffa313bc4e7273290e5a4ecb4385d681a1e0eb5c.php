@@ -153,7 +153,7 @@ $context["cat"] == 7)) {
         echo "\t\t\t<div class=\"bt\">
 \t\t\t\t";
         // line 30
-        echo twig_call_macro($macros["m"], "macro_bn", ["En savoir plus", (twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["config"] ?? null), "settings", [], "any", false, false, false, 30), "doc", [], "any", false, false, false, 30) . "kryxivia-team"), ["target" => "_blank"]], 30, $context, $this->getSourceContext());
+        echo twig_call_macro($macros["m"], "macro_bn", ["More Informations", (twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["config"] ?? null), "settings", [], "any", false, false, false, 30), "doc", [], "any", false, false, false, 30) . "kryxivia-team"), ["target" => "_blank"]], 30, $context, $this->getSourceContext());
         echo "
 \t\t\t</div>
 \t\t</div>
@@ -207,7 +207,7 @@ $context["cat"] == 7)) {
 \t\t\t\t{% endfor %}
 \t\t\t{% endfor %}
 \t\t\t<div class=\"bt\">
-\t\t\t\t{{m.bn('En savoir plus', config.settings.doc~'kryxivia-team', {target:'_blank'})}}
+\t\t\t\t{{m.bn('More Informations', config.settings.doc~'kryxivia-team', {target:'_blank'})}}
 \t\t\t</div>
 \t\t</div>
 \t</main>
