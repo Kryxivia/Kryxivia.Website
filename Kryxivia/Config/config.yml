@@ -150,6 +150,17 @@ team:
         photo: nicow
         cat: 4
         poste: Lead Graphic UX / Web Designer
+    lash:
+        lang: hi
+        name: Lakshay GUPTA 
+        cat: 4
+        photo: lash
+        poste: Graphic designer
+    explorer:
+        lang: fr
+        name: Kryxivia Explorer
+        cat: 5
+        poste: Marketing Executive
     mina:
         lang: fr
         name: Mina SAIDI
@@ -168,9 +179,21 @@ team:
         photo: null
         cat: 7
         poste: Discord Moderator
+    ibn:
+        lang: us
+        name: Ibn Crypto
+        photo: null
+        cat: 7
+        poste: Discord Moderator
+    nana:
+        lang: zh
+        name: Nana
+        photo: null
+        cat: 7
+        poste: Discord Moderator
     kiko:
         lang: fr
-        name: Kiko0
+        name: Jordan K.
         photo: null
         cat: 7
         poste: Discord Moderator
