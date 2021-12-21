@@ -86,15 +86,15 @@ class __TwigTemplate_a45e9add049fe1bac5f2dd8bca3bc084f4d8f947b19fe3326136fcf6e13
             <ul>
                 ";
         // line 19
-        echo twig_call_macro($macros["m"], "macro_li", [twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["lang"] ?? null), "nav", [], "any", false, false, false, 19), "doc", [], "any", false, false, false, 19), twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["config"] ?? null), "settings", [], "any", false, false, false, 19), "doc", [], "any", false, false, false, 19), ["target" => "_blank"]], 19, $context, $this->getSourceContext());
+        echo twig_call_macro($macros["m"], "macro_li", [twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["lang"] ?? null), "nav", [], "any", false, false, false, 19), "team", [], "any", false, false, false, 19), $this->extensions['Core\Extension']->link($context, "team")], 19, $context, $this->getSourceContext());
         echo "
-                ";
+\t\t\t\t";
         // line 20
-        echo twig_call_macro($macros["m"], "macro_li", [twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["lang"] ?? null), "nav", [], "any", false, false, false, 20), "team", [], "any", false, false, false, 20), $this->extensions['Core\Extension']->link($context, "team")], 20, $context, $this->getSourceContext());
+        echo twig_call_macro($macros["m"], "macro_li", [twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["lang"] ?? null), "nav", [], "any", false, false, false, 20), "dev", [], "any", false, false, false, 20), $this->extensions['Core\Extension']->link($context, "devblog")], 20, $context, $this->getSourceContext());
         echo "
-                ";
+\t\t\t\t";
         // line 21
-        echo twig_call_macro($macros["m"], "macro_li", [twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["lang"] ?? null), "nav", [], "any", false, false, false, 21), "dev", [], "any", false, false, false, 21), $this->extensions['Core\Extension']->link($context, "devblog")], 21, $context, $this->getSourceContext());
+        echo twig_call_macro($macros["m"], "macro_li", [twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["lang"] ?? null), "nav", [], "any", false, false, false, 21), "doc", [], "any", false, false, false, 21), twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["config"] ?? null), "settings", [], "any", false, false, false, 21), "doc", [], "any", false, false, false, 21), ["target" => "_blank"]], 21, $context, $this->getSourceContext());
         echo "
                 ";
         // line 22
@@ -173,9 +173,9 @@ class __TwigTemplate_a45e9add049fe1bac5f2dd8bca3bc084f4d8f947b19fe3326136fcf6e13
         </div>
         <nav id=\"n\">
             <ul>
-                {{m.li(lang.nav.doc, config.settings.doc, {target:'_blank'})}}
                 {{m.li(lang.nav.team, link('team'))}}
-                {{m.li(lang.nav.dev, link('devblog'))}}
+\t\t\t\t{{m.li(lang.nav.dev, link('devblog'))}}
+\t\t\t\t{{m.li(lang.nav.doc, config.settings.doc, {target:'_blank'})}}
                 {{m.li(lang.nav.gal, link('gallery'))}}
                 {{m.li(lang.nav.lite, config.settings.litepaper, {target:'_blank'})}}
             </ul>
