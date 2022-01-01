@@ -264,7 +264,7 @@
     {% import _self as this %}
     {% set title = 'Kryxivia '~name %}
     <div>
-        <a href="https://t.me/kryxivia" title="{{title}}" target="_blank" rel="noopener noreferrer" title="{{name}}">{{icon|replace({'xmlns:v="https://vecta.io/nano"':'','xmlns="http://www.w3.org/2000/svg"':'','</svg>':'<title>'~title~'</title></svg>'})|raw}}</a>
+        <a href="{{link}}" title="{{title}}" target="_blank" rel="noopener noreferrer" title="{{name}}">{{icon|replace({'xmlns:v="https://vecta.io/nano"':'','xmlns="http://www.w3.org/2000/svg"':'','</svg>':'<title>'~title~'</title></svg>'})|raw}}</a>
         {{this.img('img/cader.png', {width:1100,height:1100,cls:'cadre',alt:name})}}
     </div>
 {% endmacro %}

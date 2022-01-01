@@ -39,7 +39,7 @@ settings:
         instagram: https://www.instagram.com/kryxivia/
 
     kxa:
-        base: 62000000
+        base: 250000000
         address: 0x2223bF1D7c19EF7C06DAB88938EC7B85952cCd89
         coinmarketcap: https://coinmarketcap.com/fr/currencies/kryxivia/
         doc: https://docs.kryxivia.io/kryxivia-coin-kxa-main-blockchain-currency/presentation-and-tokenomics
