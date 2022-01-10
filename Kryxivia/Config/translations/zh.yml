@@ -5,7 +5,10 @@ all:
     soon: 即将推出
     close: 关闭
     seeimg: 见图片
-
+    play: 听
+    pause: 暂停
+    music: 音乐
+    
 head:
     home:
         title: Kryxivia • 一个利用区块链上的NFT的创新MMORPG游戏

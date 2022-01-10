@@ -5,6 +5,9 @@ all:
     soon: Скоро будет
     close: Закрыть
     seeimg: См. фото
+    play: Слушать
+    pause: Пауза
+    music: Музыка
 
 head:
     home:

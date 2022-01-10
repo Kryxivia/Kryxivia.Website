@@ -5,6 +5,9 @@ all:
     soon: Próximamente
     close: Cerca
     seeimg: Ver imagen
+    play: Escuchar
+    pause: Pausa
+    music: Música
 
 head:
     home:

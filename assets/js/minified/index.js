@@ -19,17 +19,29 @@ $g.fromTo('.tkbc-kxa .tok picture',2,{y:'100%',opacity:0},{y:'0',opacity:1,ease:
 $g.fromTo('.tkbc-kxs .bg > div',{y:'0%'},{y:'50%',ease:nn,scrollTrigger:{trigger:'.tkbc-kxs',start:'top bottom',end:'bottom top',scrub:!0}})
 $g.fromTo('.tkbc-kxs .tok picture',2,{y:'100%',opacity:0},{y:'0',opacity:1,ease:Power2.easeOut,scrollTrigger:{trigger:'.tkbc-kxs',start:'top 70%',}})
 $g.fromTo('#pa .bg > div',{y:'-25%'},{y:'25%',ease:nn,scrollTrigger:{trigger:'#pa',start:'top bottom',end:'bottom top',scrub:!0}})
-const controlVideo=vidcontrol=>{let div=document.getElementById("tra-yt")
-let $i=div.getElementsByTagName("iframe")[0].contentWindow
-$i.postMessage('{"event":"command","func":"'+vidcontrol+'","args":""}','*')}
+let $bsd=document.getElementById('sd')
+let $music=document.getElementById('bgsound')
+$bsd.addEventListener('click',e=>{if($bsd.classList.contains('active')){$bsd.classList.remove('active')
+$music.pause()}else{let src=$music.getAttribute('data-src')
+$music.setAttribute('src',src)
+$bsd.classList.add('first')
+$bsd.classList.add('active')
+$music.play()}})
+const playVid=(id,vidcontrol)=>{let $iframe=document.getElementById(id)
+let src=$iframe.getAttribute('data-src')
+$iframe.setAttribute('src',src)
+setTimeout(()=>{let $i=document.getElementById(id).contentWindow
+$i.postMessage('{"event":"command","func":"'+vidcontrol+'","args":""}','*')},1000)
+if($bsd.classList.contains('active')&&$bsd.classList.contains('first')){$music.pause()}}
+const controlVideo=vidcontrol=>{playVid("tra-yt",vidcontrol)}
 const openTra=()=>{controlVideo('playVideo')
 $html.classList.add('openTra')}
 const closeTra=()=>{controlVideo('stopVideo')
-$html.classList.remove('openTra')}
-const controlGp=vidcontrol=>{let div=document.getElementById("tra-yt-gp")
-let $i=div.getElementsByTagName("iframe")[0].contentWindow
-$i.postMessage('{"event":"command","func":"'+vidcontrol+'","args":""}','*')}
+$html.classList.remove('openTra')
+if($bsd.classList.contains('active')&&$bsd.classList.contains('first')){$music.play()}}
+const controlGp=vidcontrol=>{playVid("tra-yt-gp",vidcontrol)}
 const openTraGp=()=>{controlGp('playVideo')
 $html.classList.add('openTraGp')}
 const closeTraGp=()=>{controlGp('stopVideo')
-$html.classList.remove('openTraGp')}
+$html.classList.remove('openTraGp')
+if($bsd.classList.contains('active')&&$bsd.classList.contains('first')){$music.play()}}

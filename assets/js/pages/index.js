@@ -57,12 +57,42 @@ $g.fromTo('#pa .bg > div', {y:'-25%'}, {y:'25%',ease:nn,scrollTrigger:{
     scrub: true
 }})
 
+/* bg sound */
+
+let $bsd = document.getElementById('sd')
+let $music = document.getElementById('bgsound')
+$bsd.addEventListener('click', e => {
+
+    if($bsd.classList.contains('active')){
+        $bsd.classList.remove('active')
+        $music.pause()
+    }else{
+        let src = $music.getAttribute('data-src')
+        $music.setAttribute('src', src)
+        $bsd.classList.add('first')
+        $bsd.classList.add('active')
+        $music.play()
+    }
+
+})
+
 /* trailer */
 
+const playVid = (id, vidcontrol) => {
+    let $iframe = document.getElementById(id)
+    let src = $iframe.getAttribute('data-src')
+    $iframe.setAttribute('src', src)
+    setTimeout(() => {
+        let $i = document.getElementById(id).contentWindow
+        $i.postMessage('{"event":"command","func":"' + vidcontrol + '","args":""}', '*')
+    }, 1000)
+    if($bsd.classList.contains('active') && $bsd.classList.contains('first')){
+        $music.pause()
+    }
+}
+
 const controlVideo = vidcontrol => {
-    let div = document.getElementById("tra-yt")
-    let $i = div.getElementsByTagName("iframe")[0].contentWindow
-    $i.postMessage('{"event":"command","func":"' + vidcontrol + '","args":""}', '*')
+    playVid("tra-yt", vidcontrol)
 }
 const openTra = () => {
     controlVideo('playVideo')
@@ -71,12 +101,13 @@ const openTra = () => {
 const closeTra = () => {
     controlVideo('stopVideo')
     $html.classList.remove('openTra')
+    if($bsd.classList.contains('active') && $bsd.classList.contains('first')){
+        $music.play()
+    }
 }
 
 const controlGp = vidcontrol => {
-    let div = document.getElementById("tra-yt-gp")
-    let $i = div.getElementsByTagName("iframe")[0].contentWindow
-    $i.postMessage('{"event":"command","func":"' + vidcontrol + '","args":""}', '*')
+    playVid("tra-yt-gp", vidcontrol)
 }
 const openTraGp = () => {
     controlGp('playVideo')
@@ -85,4 +116,7 @@ const openTraGp = () => {
 const closeTraGp = () => {
     controlGp('stopVideo')
     $html.classList.remove('openTraGp')
+    if($bsd.classList.contains('active') && $bsd.classList.contains('first')){
+        $music.play()
+    }
 }

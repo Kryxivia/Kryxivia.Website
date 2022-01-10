@@ -5,6 +5,9 @@ all:
     soon: Tulemas peagi
     close: Sulge
     seeimg: Vaata pilti
+    play: Kuulama
+    pause: Paus
+    music: Muusika
 
 head:
     home:

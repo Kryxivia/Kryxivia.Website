@@ -5,6 +5,9 @@ all:
     soon: Çok yakında
     close: Kapat
     seeimg: Resmi görmek
+    play: Dinlemek
+    pause: Duraklat
+    music: Müzik
 
 head:
     home:

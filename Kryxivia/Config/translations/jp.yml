@@ -5,6 +5,9 @@ all:
     soon: 近日公開予定
     close: 閉じる
     seeimg: 画像を見る
+    play: 聞くには
+    pause: 一時停止
+    music: 音楽
 
 head:
     home:

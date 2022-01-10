@@ -5,6 +5,9 @@ all:
     soon: Segera akan datang
     close: Menutup
     seeimg: Lihat gambar
+    play: Untuk mendengarkan
+    pause: Berhenti sebentar
+    music: Musik
 
 head:
     home:

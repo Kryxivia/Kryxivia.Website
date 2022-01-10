@@ -5,6 +5,9 @@ all:
     soon: قريبا
     close: قريب
     seeimg: انظر الصورة
+    play: للاستماع
+    pause: يوقف
+    music: موسيقى
 
 head:
     home:

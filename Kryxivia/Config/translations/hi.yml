@@ -5,6 +5,9 @@ all:
     soon: जल्द आ रहा है
     close: बंद करे
     seeimg: तस्वीर देखने
+    play: सुनना
+    pause: ठहराव
+    music: संगीत
 
 head:
     home:

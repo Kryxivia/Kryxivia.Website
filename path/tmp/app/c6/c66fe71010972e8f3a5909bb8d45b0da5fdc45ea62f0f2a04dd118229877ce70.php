@@ -28,6 +28,7 @@ class __TwigTemplate_5f50c4b655e35e257c8447ed37ba17bf40b50200247869b41789911de48
             'css' => [$this, 'block_css'],
             'js' => [$this, 'block_js'],
             'content' => [$this, 'block_content'],
+            'plus' => [$this, 'block_plus'],
         ];
     }
 
@@ -144,12 +145,12 @@ class __TwigTemplate_5f50c4b655e35e257c8447ed37ba17bf40b50200247869b41789911de48
         <div id=\"spark-ix\" class=\"sparks\" data-spark=\"#ff7c49\"></div>
         ";
         // line 44
-        echo twig_call_macro($macros["m"], "macro_img", ["img/bottom-ix.png", ["width" => 2000, "height" => 744, "cls" => "b-ix", "alt" => twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["lang"] ?? null), "all", [], "any", false, false, false, 44), "name", [], "any", false, false, false, 44)]], 44, $context, $this->getSourceContext());
+        echo twig_call_macro($macros["m"], "macro_img", ["img/bottom-ix.png", ["width" => 2000, "height" => 744, "cls" => "b-ix", "alt" => twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["lang"] ?? null), "all", [], "any", false, false, false, 44), "name", [], "any", false, false, false, 44), "lazy" => true]], 44, $context, $this->getSourceContext());
         echo "
     </div>
     <div id=\"tra\" class=\"vidd\">
         <div class=\"tra-c\">
-            <div id=\"tra-yt\" class=\"yt\"><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/";
+            <div class=\"yt\"><iframe id=\"tra-yt\" width=\"560\" height=\"315\" data-src=\"https://www.youtube.com/embed/";
         // line 48
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["config"] ?? null), "settings", [], "any", false, false, false, 48), "video", [], "any", false, false, false, 48), "trailer", [], "any", false, false, false, 48), "html", null, true);
         echo "?rel=0&enablejsapi=1\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe></div>
@@ -158,7 +159,7 @@ class __TwigTemplate_5f50c4b655e35e257c8447ed37ba17bf40b50200247869b41789911de48
     </div>
     <div id=\"traGp\" class=\"vidd\">
         <div class=\"tra-c\">
-            <div id=\"tra-yt-gp\" class=\"yt\"><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/";
+            <div class=\"yt\"><iframe id=\"tra-yt-gp\" width=\"560\" height=\"315\" data-src=\"https://www.youtube.com/embed/";
         // line 54
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["config"] ?? null), "settings", [], "any", false, false, false, 54), "video", [], "any", false, false, false, 54), "gameplay", [], "any", false, false, false, 54), "html", null, true);
         echo "?rel=0&enablejsapi=1\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe></div>
@@ -179,6 +180,45 @@ class __TwigTemplate_5f50c4b655e35e257c8447ed37ba17bf40b50200247869b41789911de48
         $this->loadTemplate("inc/press.twig", "/pages/home.twig", 61)->display($context);
     }
 
+    // line 63
+    public function block_plus($context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        // line 64
+        echo "\t<div id=\"sd\">
+\t\t<div class=\"bars\">
+\t\t\t";
+        // line 66
+        $context['_parent'] = $context;
+        $context['_seq'] = twig_ensure_traversable(range(1, 5));
+        foreach ($context['_seq'] as $context["_key"] => $context["i"]) {
+            echo "<span></span>";
+        }
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['i'], $context['_parent'], $context['loop']);
+        $context = array_intersect_key($context, $_parent) + $_parent;
+        // line 67
+        echo "\t\t</div>
+\t\t<strong class=\"play\">";
+        // line 68
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["lang"] ?? null), "all", [], "any", false, false, false, 68), "play", [], "any", false, false, false, 68), "html", null, true);
+        echo "</strong> 
+\t\t<strong class=\"stop\">";
+        // line 69
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["lang"] ?? null), "all", [], "any", false, false, false, 69), "pause", [], "any", false, false, false, 69), "html", null, true);
+        echo "</strong> 
+\t\t<span>Kryxivia ";
+        // line 70
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["lang"] ?? null), "all", [], "any", false, false, false, 70), "music", [], "any", false, false, false, 70), "html", null, true);
+        echo "</span>
+\t</div>
+\t<audio id=\"bgsound\" data-src=\"";
+        // line 72
+        echo twig_escape_filter($this->env, $this->extensions['Core\Extension']->asset("media/kryxivia_main-theme_music_web-edit.mp3"), "html", null, true);
+        echo "\"></audio>
+";
+    }
+
     public function getTemplateName()
     {
         return "/pages/home.twig";
@@ -191,7 +231,7 @@ class __TwigTemplate_5f50c4b655e35e257c8447ed37ba17bf40b50200247869b41789911de48
 
     public function getDebugInfo()
     {
-        return array (  178 => 61,  175 => 60,  172 => 59,  170 => 58,  163 => 54,  154 => 48,  147 => 44,  135 => 35,  131 => 34,  124 => 30,  115 => 24,  109 => 23,  102 => 19,  96 => 18,  90 => 15,  86 => 14,  82 => 13,  77 => 10,  73 => 9,  66 => 7,  62 => 6,  55 => 4,  51 => 3,  46 => 1,  44 => 2,  37 => 1,);
+        return array (  217 => 72,  212 => 70,  208 => 69,  204 => 68,  201 => 67,  192 => 66,  188 => 64,  184 => 63,  179 => 61,  176 => 60,  173 => 59,  171 => 58,  164 => 54,  155 => 48,  148 => 44,  136 => 35,  132 => 34,  125 => 30,  116 => 24,  110 => 23,  103 => 19,  97 => 18,  91 => 15,  87 => 14,  83 => 13,  78 => 10,  74 => 9,  67 => 7,  63 => 6,  56 => 4,  52 => 3,  47 => 1,  45 => 2,  38 => 1,);
     }
 
     public function getSourceContext()
@@ -239,17 +279,17 @@ class __TwigTemplate_5f50c4b655e35e257c8447ed37ba17bf40b50200247869b41789911de48
             <div></div>
         </div>
         <div id=\"spark-ix\" class=\"sparks\" data-spark=\"#ff7c49\"></div>
-        {{m.img('img/bottom-ix.png', {width:2000,height:744,cls:'b-ix',alt:lang.all.name})}}
+        {{m.img('img/bottom-ix.png', {width:2000,height:744,cls:'b-ix',alt:lang.all.name,lazy:true})}}
     </div>
     <div id=\"tra\" class=\"vidd\">
         <div class=\"tra-c\">
-            <div id=\"tra-yt\" class=\"yt\"><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/{{config.settings.video.trailer}}?rel=0&enablejsapi=1\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe></div>
+            <div class=\"yt\"><iframe id=\"tra-yt\" width=\"560\" height=\"315\" data-src=\"https://www.youtube.com/embed/{{config.settings.video.trailer}}?rel=0&enablejsapi=1\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe></div>
         </div>
         <div class=\"bg-tra\" onClick=\"closeTra()\"></div>
     </div>
     <div id=\"traGp\" class=\"vidd\">
         <div class=\"tra-c\">
-            <div id=\"tra-yt-gp\" class=\"yt\"><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/{{config.settings.video.gameplay}}?rel=0&enablejsapi=1\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe></div>
+            <div class=\"yt\"><iframe id=\"tra-yt-gp\" width=\"560\" height=\"315\" data-src=\"https://www.youtube.com/embed/{{config.settings.video.gameplay}}?rel=0&enablejsapi=1\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe></div>
         </div>
         <div class=\"bg-tra\" onClick=\"closeTraGp()\"></div>
     </div>
@@ -257,6 +297,17 @@ class __TwigTemplate_5f50c4b655e35e257c8447ed37ba17bf40b50200247869b41789911de48
     {% include 'inc/token.twig' %}
     {% include 'inc/partners.twig' %}
     {% include 'inc/press.twig' %}
+{% endblock %}
+{% block plus %}
+\t<div id=\"sd\">
+\t\t<div class=\"bars\">
+\t\t\t{% for i in 1..5 %}<span></span>{% endfor %}
+\t\t</div>
+\t\t<strong class=\"play\">{{lang.all.play}}</strong> 
+\t\t<strong class=\"stop\">{{lang.all.pause}}</strong> 
+\t\t<span>Kryxivia {{lang.all.music}}</span>
+\t</div>
+\t<audio id=\"bgsound\" data-src=\"{{asset('media/kryxivia_main-theme_music_web-edit.mp3')}}\"></audio>
 {% endblock %}", "/pages/home.twig", "/Users/nuixw/Documents/Localhost/Kryxivia.Website/Kryxivia/Views/pages/home.twig");
     }
 }

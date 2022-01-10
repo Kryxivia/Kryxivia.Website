@@ -5,6 +5,9 @@ all:
     soon: Prochainement
     close: Fermer
     seeimg: Voir l'image
+    play: Écouter
+    pause: Pause
+    music: Musique
 
 head:
     home:

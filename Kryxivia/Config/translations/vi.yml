@@ -5,6 +5,9 @@ all:
     soon: Sắp có
     close: Đóng
     seeimg: Xem hình
+    play: Nghe
+    pause: Tạm ngừng
+    music: Âm nhạc
 
 head:
     home:

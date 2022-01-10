@@ -41,17 +41,17 @@
             <div></div>
         </div>
         <div id="spark-ix" class="sparks" data-spark="#ff7c49"></div>
-        {{m.img('img/bottom-ix.png', {width:2000,height:744,cls:'b-ix',alt:lang.all.name})}}
+        {{m.img('img/bottom-ix.png', {width:2000,height:744,cls:'b-ix',alt:lang.all.name,lazy:true})}}
     </div>
     <div id="tra" class="vidd">
         <div class="tra-c">
-            <div id="tra-yt" class="yt"><iframe width="560" height="315" src="https://www.youtube.com/embed/{{config.settings.video.trailer}}?rel=0&enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            <div class="yt"><iframe id="tra-yt" width="560" height="315" data-src="https://www.youtube.com/embed/{{config.settings.video.trailer}}?rel=0&enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
         </div>
         <div class="bg-tra" onClick="closeTra()"></div>
     </div>
     <div id="traGp" class="vidd">
         <div class="tra-c">
-            <div id="tra-yt-gp" class="yt"><iframe width="560" height="315" src="https://www.youtube.com/embed/{{config.settings.video.gameplay}}?rel=0&enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            <div class="yt"><iframe id="tra-yt-gp" width="560" height="315" data-src="https://www.youtube.com/embed/{{config.settings.video.gameplay}}?rel=0&enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
         </div>
         <div class="bg-tra" onClick="closeTraGp()"></div>
     </div>
@@ -59,4 +59,15 @@
     {% include 'inc/token.twig' %}
     {% include 'inc/partners.twig' %}
     {% include 'inc/press.twig' %}
+{% endblock %}
+{% block plus %}
+	<div id="sd">
+		<div class="bars">
+			{% for i in 1..5 %}<span></span>{% endfor %}
+		</div>
+		<strong class="play">{{lang.all.play}}</strong> 
+		<strong class="stop">{{lang.all.pause}}</strong> 
+		<span>Kryxivia {{lang.all.music}}</span>
+	</div>
+	<audio id="bgsound" data-src="{{asset('media/kryxivia_main-theme_music_web-edit.mp3')}}"></audio>
 {% endblock %}

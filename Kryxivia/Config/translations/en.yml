@@ -5,6 +5,9 @@ all:
     soon: Coming soon
     close: Close
     seeimg: See picture
+    play: Play
+    pause: Pause
+    music: Music
 
 head:
     home:

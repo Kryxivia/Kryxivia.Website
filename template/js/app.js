@@ -174,7 +174,10 @@ document.getElementById('bnv').addEventListener('click', () => {
 
 const controlVideo = vidcontrol => {
     let div = document.getElementById("tra-yt")
-    let $i = div.getElementsByTagName("iframe")[0].contentWindow
+    let iframe = div.getElementsByTagName("iframe")
+    let $i = iframe[0].contentWindow
+    let src = iframe.getAttribute('data-src')
+    alert(src)
     $i.postMessage('{"event":"command","func":"' + vidcontrol + '","args":""}', '*')
 }
 
