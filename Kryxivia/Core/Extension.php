@@ -231,7 +231,7 @@ class Extension extends Twig_Extension{
 
 			}
 
-			return '<link rel="preload" href="'.$this->asset('css/minified/'.$minify.'.css').'" as="style"><link rel="stylesheet" type="text/css" href="'.$this->asset('css/minified/'.$minify.'.css').'">';
+			return '<link rel="preload" href="'.$this->asset('css/minified/'.$minify.'.css').'?v=2" as="style"><link rel="stylesheet" type="text/css" href="'.$this->asset('css/minified/'.$minify.'.css').'?v=2">';
 
 	    }
 
@@ -267,7 +267,7 @@ class Extension extends Twig_Extension{
 
 			}
 
-			return '<script src="'.$this->asset('js/minified/'.$minify.'.js').'" defer></script>';
+			return '<script src="'.$this->asset('js/minified/'.$minify.'.js').'?v=2" defer></script>';
 
 	    }
 		
