@@ -13,7 +13,7 @@ use Twig\Source;
 use Twig\Template;
 
 /* /pages/devblog/list.twig */
-class __TwigTemplate_64c297d0f9303554f156f8428b28818cfec0472b69b803782e551186ec67a307 extends \Twig\Template
+class __TwigTemplate_cb5d41968034b4bb5a2225a1db0fb69bf51af0090d291b661d2990c045fd3a13 extends \Twig\Template
 {
     private $source;
     private $macros = [];
@@ -166,6 +166,6 @@ class __TwigTemplate_64c297d0f9303554f156f8428b28818cfec0472b69b803782e551186ec6
             </div>
         </div>
     </main>
-{% endblock %}", "/pages/devblog/list.twig", "E:\\wamp64\\www\\Kryxivia\\Views\\pages\\devblog\\list.twig");
+{% endblock %}", "/pages/devblog/list.twig", "/Users/nuixw/Documents/Localhost/Kryxivia.Website/Kryxivia/Views/pages/devblog/list.twig");
     }
 }
