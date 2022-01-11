@@ -5,7 +5,7 @@
 
 params:
 
-    lang: fr,en,zh,id,vi,hi,ar,tr,jp,es,pt,ru,et
+    lang: en,fr,zh,id,vi,hi,ar,tr,jp,es,pt,ru,et
 
     thcolor: 843eef
 
