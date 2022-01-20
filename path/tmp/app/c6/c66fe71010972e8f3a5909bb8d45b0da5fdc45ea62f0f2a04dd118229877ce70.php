@@ -215,7 +215,7 @@ class __TwigTemplate_5f50c4b655e35e257c8447ed37ba17bf40b50200247869b41789911de48
 \t<audio id=\"bgsound\" data-src=\"";
         // line 72
         echo twig_escape_filter($this->env, $this->extensions['Core\Extension']->asset("media/kryxivia_main-theme_music_web-edit.mp3"), "html", null, true);
-        echo "\"></audio>
+        echo "\" loop></audio>
 ";
     }
 
@@ -307,7 +307,7 @@ class __TwigTemplate_5f50c4b655e35e257c8447ed37ba17bf40b50200247869b41789911de48
 \t\t<strong class=\"stop\">{{lang.all.pause}}</strong> 
 \t\t<span>Kryxivia {{lang.all.music}}</span>
 \t</div>
-\t<audio id=\"bgsound\" data-src=\"{{asset('media/kryxivia_main-theme_music_web-edit.mp3')}}\"></audio>
+\t<audio id=\"bgsound\" data-src=\"{{asset('media/kryxivia_main-theme_music_web-edit.mp3')}}\" loop></audio>
 {% endblock %}", "/pages/home.twig", "/Users/nuixw/Documents/Localhost/Kryxivia.Website/Kryxivia/Views/pages/home.twig");
     }
 }
