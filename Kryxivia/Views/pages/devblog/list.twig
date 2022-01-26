@@ -16,7 +16,7 @@
         <div class="ct">
             <div id="dv">
                 <div class="l">
-                    {% for a in article %}
+                    {% for a in article|sort((a, b) => b.date <=> a.date) %}
                         {{m.Article(a, (article|length - loop.index + 1))}}
                     {% endfor %}
                 </div>

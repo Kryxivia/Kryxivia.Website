@@ -84,7 +84,7 @@ class __TwigTemplate_cb5d41968034b4bb5a2225a1db0fb69bf51af0090d291b661d2990c045f
                     ";
         // line 19
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable(($context["article"] ?? null));
+        $context['_seq'] = twig_ensure_traversable(twig_sort_filter(($context["article"] ?? null), function ($__a__, $__b__) use ($context, $macros) { $context["a"] = $__a__; $context["b"] = $__b__; return (twig_get_attribute($this->env, $this->source, ($context["b"] ?? null), "date", [], "any", false, false, false, 19) <=> twig_get_attribute($this->env, $this->source, $context["a"], "date", [], "any", false, false, false, 19)); }));
         $context['loop'] = [
           'parent' => $context['_parent'],
           'index0' => 0,
@@ -159,7 +159,7 @@ class __TwigTemplate_cb5d41968034b4bb5a2225a1db0fb69bf51af0090d291b661d2990c045f
         <div class=\"ct\">
             <div id=\"dv\">
                 <div class=\"l\">
-                    {% for a in article %}
+                    {% for a in article|sort((a, b) => b.date <=> a.date) %}
                         {{m.Article(a, (article|length - loop.index + 1))}}
                     {% endfor %}
                 </div>
