@@ -110,13 +110,11 @@ class __TwigTemplate_4132eb489f5a85a6483a31f060df8d5bc9ede1570061be67735b30a20fe
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['code'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
         // line 18
-        echo "<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-7ZJBRGJFY1\"></script>
+        echo "<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-7ZJBRGJFY1\"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-7ZJBRGJFY1');
 </script>";
     }
@@ -155,13 +153,11 @@ class __TwigTemplate_4132eb489f5a85a6483a31f060df8d5bc9ede1570061be67735b30a20fe
 {% for code in config.params.lang|split(',') if code != langCode and urlAlternate != null %}
  <link rel=\"alternate\" hreflang=\"{{code}}\" href=\"{{host~code}}{{urlAlternate != null ? urlAlternate}}\">
 {% endfor %}
-<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-7ZJBRGJFY1\"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-7ZJBRGJFY1');
 </script>", "inc/head.twig", "/Users/nuixw/Documents/Localhost/Kryxivia.Website/Kryxivia/Views/inc/head.twig");
     }
