@@ -29,7 +29,7 @@
                 },
                 "6": {
                     "type": "img",
-                    "c": "kryxivia-ui-button.png",
+                    "c": "kryxivia-ui-button-2.png",
                     "a": "UI Kryxivia button"
                 },
                 "7": {
@@ -38,7 +38,7 @@
                 }, 
                 "8": {
                     "type": "img",
-                    "c": "kryxivia-ui-dungeon-group.png",
+                    "c": "kryxivia-ui-dungeon-group-2.png",
                     "a": "Kryxivia group and dungeon"
                 },  
                 "9": {
@@ -47,7 +47,7 @@
                 }, 
                 "10": {
                     "type": "img",
-                    "c": "kryxivia-inventory.png",
+                    "c": "kryxivia-inventory-2.png",
                     "a": "Kryxivia inventory"
                 },   
                 "11": {
@@ -56,7 +56,7 @@
                 },
                 "12": {
                     "type": "img",
-                    "c": "kryxivia-ui-krixits.png",
+                    "c": "kryxivia-ui-krixits-2.png",
                     "a": "Kryxivia inventory Kryxits"
                 },   
                 "13": {
@@ -69,7 +69,7 @@
                 },
                 "15": {
                     "type": "img",
-                    "c": "kryxivia-nft-import.png",
+                    "c": "kryxivia-nft-import-2.png",
                     "a": "Kryxivia NFT import"
                 },
                 "16": {
