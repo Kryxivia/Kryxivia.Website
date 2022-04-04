@@ -1,3 +1,7 @@
+play:
+    tit: Play now!
+    alpha: Alpha Access!
+
 all:
     name: Kryxivia
     backh: Back to homepage

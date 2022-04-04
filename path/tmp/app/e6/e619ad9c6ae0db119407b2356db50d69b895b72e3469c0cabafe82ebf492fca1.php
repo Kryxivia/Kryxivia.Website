@@ -96,13 +96,30 @@ class __TwigTemplate_616e72d97be90e359f420a9be2a517d19165bd68d6894ea108e1ae8f874
         $this->displayBlock('footer', $context, $blocks);
         // line 34
         echo "\t\t</div>
-\t\t";
+\t\t<a href=\"https://client.kryxivia.io/\" title=\"";
         // line 35
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["lang"] ?? null), "play", [], "any", false, false, false, 35), "tit", [], "any", false, false, false, 35), "html", null, true);
+        echo " ";
+        echo twig_escape_filter($this->env, twig_lower_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["lang"] ?? null), "play", [], "any", false, false, false, 35), "alpha", [], "any", false, false, false, 35)), "html", null, true);
+        echo "\" class=\"bn stck plyn\" target=\"_blank\">
+            <strong><span class=\"dr\">";
+        // line 36
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["lang"] ?? null), "play", [], "any", false, false, false, 36), "tit", [], "any", false, false, false, 36), "html", null, true);
+        echo "</span><span class=\"hov\">";
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["lang"] ?? null), "play", [], "any", false, false, false, 36), "tit", [], "any", false, false, false, 36), "html", null, true);
+        echo "</span></strong>
+            <small>";
+        // line 37
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["lang"] ?? null), "play", [], "any", false, false, false, 37), "alpha", [], "any", false, false, false, 37), "html", null, true);
+        echo "</small>
+        </a>
+\t\t";
+        // line 39
         $this->displayBlock('plus', $context, $blocks);
-        // line 41
+        // line 45
         echo "    \t";
         $this->displayBlock('libjs', $context, $blocks);
-        // line 42
+        // line 46
         echo "\t</body>
 </html>
 ";
@@ -188,13 +205,13 @@ class __TwigTemplate_616e72d97be90e359f420a9be2a517d19165bd68d6894ea108e1ae8f874
         echo "\t\t\t";
     }
 
-    // line 35
+    // line 39
     public function block_plus($context, array $blocks = [])
     {
         $macros = $this->macros;
     }
 
-    // line 41
+    // line 45
     public function block_libjs($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -212,7 +229,7 @@ class __TwigTemplate_616e72d97be90e359f420a9be2a517d19165bd68d6894ea108e1ae8f874
 
     public function getDebugInfo()
     {
-        return array (  198 => 41,  192 => 35,  188 => 33,  185 => 32,  181 => 31,  177 => 30,  174 => 29,  170 => 28,  164 => 27,  160 => 26,  157 => 25,  153 => 24,  146 => 19,  142 => 18,  135 => 16,  131 => 15,  125 => 11,  121 => 10,  119 => 7,  118 => 6,  116 => 5,  112 => 4,  106 => 42,  103 => 41,  101 => 35,  98 => 34,  95 => 31,  92 => 28,  89 => 27,  87 => 24,  82 => 21,  79 => 18,  76 => 15,  67 => 13,  62 => 12,  59 => 11,  57 => 4,  50 => 2,  47 => 1,);
+        return array (  215 => 45,  209 => 39,  205 => 33,  202 => 32,  198 => 31,  194 => 30,  191 => 29,  187 => 28,  181 => 27,  177 => 26,  174 => 25,  170 => 24,  163 => 19,  159 => 18,  152 => 16,  148 => 15,  142 => 11,  138 => 10,  136 => 7,  135 => 6,  133 => 5,  129 => 4,  123 => 46,  120 => 45,  118 => 39,  113 => 37,  107 => 36,  101 => 35,  98 => 34,  95 => 31,  92 => 28,  89 => 27,  87 => 24,  82 => 21,  79 => 18,  76 => 15,  67 => 13,  62 => 12,  59 => 11,  57 => 4,  50 => 2,  47 => 1,);
     }
 
     public function getSourceContext()
@@ -251,6 +268,10 @@ class __TwigTemplate_616e72d97be90e359f420a9be2a517d19165bd68d6894ea108e1ae8f874
 \t\t\t\t{% include 'inc/footer.twig' %}
 \t\t\t{% endblock %}
 \t\t</div>
+\t\t<a href=\"https://client.kryxivia.io/\" title=\"{{lang.play.tit}} {{lang.play.alpha|lower}}\" class=\"bn stck plyn\" target=\"_blank\">
+            <strong><span class=\"dr\">{{lang.play.tit}}</span><span class=\"hov\">{{lang.play.tit}}</span></strong>
+            <small>{{lang.play.alpha}}</small>
+        </a>
 \t\t{% block plus %}{% endblock %}
 {# \t\t{% if load != 1 %}
 \t\t\t<div class=\"load\">

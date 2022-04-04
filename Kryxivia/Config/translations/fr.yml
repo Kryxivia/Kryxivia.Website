@@ -1,3 +1,7 @@
+play:
+    tit: Jouer maintenant !
+    alpha: Accès Alpha !
+
 all:
     name: Kryxivia
     backh: Retour à l'accueil

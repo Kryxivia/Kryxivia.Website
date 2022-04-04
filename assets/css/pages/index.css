@@ -187,6 +187,8 @@
     #do .ct{padding-left:0;padding-right:0;}
     #do .dc img{height:100px;}
 
+    #sd{display:none;}
+
 }
 @media screen and (max-width:650px){
 
