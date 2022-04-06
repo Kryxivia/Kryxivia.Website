@@ -217,7 +217,7 @@ html.ie body:before{position:absolute;line-height:1.4;top:50vh;transform:transla
 .onav #h .bnv .l-1, .onav #h .bnv .l-3{--length:22;--offset:-92.5;}
 .onav #h .bnv .l-2{--length:0;--offset:-50;}
 
-.plyn{position:fixed;bottom:10px;top:auto;height:auto;animation:plyn 2s infinite linear;left:50%;transform:translateX(-50%);z-index:9999999;}
+.plyn{position:fixed;bottom:10px;top:auto;height:auto;animation:plyn 2s infinite linear;left:50%;transform:translateX(-50%)!important;z-index:9999999;}
 
 @keyframes plyn{
     0%{box-shadow:0 0 0 0 var(--color_3);}
