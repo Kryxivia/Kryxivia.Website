@@ -28,7 +28,7 @@ head:
         desc: Kryxiviaの世界をスクリーンショットとイラストで冒険してください。
 
 header:
-    stack: ステーキングへのアクセス
+    stack: アプリにアクセスする
     alpha: アーリーアルファアクセス
 
 nav:
