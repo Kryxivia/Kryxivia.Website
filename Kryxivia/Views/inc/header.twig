@@ -1,0 +1,40 @@
+{% import 'inc/macros.twig' as m %}
+<header id="h">
+    {{m.img('img/top-h.png', {width:1088,height:651,cls:'top-h',alt:lang.all.name,lazy:true})}}
+    <div class="hc">
+        <a href="{{link('home')}}" title="{{lang.all.backh}}" class="lg">
+            {{m.img('img/logo-kryxivia.png', {width:958,height:365,alt:lang.all.name,lazy:true})}}
+        </a>
+        <div class="lang">
+            <div>
+                <ul>
+                    {% for lg in config.params.lang|split(',') %}
+                        <li{{langCode == lg ? ' class="select"'}}><a href="{{host ~ lg}}" title="{{lg}}"><img width="40" height="40" src="{{asset('img/lang/'~ lg ~'.svg')}}" alt="{{lg}}" loading="lazy"></a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        <nav id="n">
+            <ul>
+                {{m.li(lang.nav.team, link('team'))}}
+				{{m.li(lang.nav.dev, link('devblog'))}}
+				{{m.li(lang.nav.doc, config.settings.doc, {target:'_blank'})}}
+                {{m.li(lang.nav.gal, link('gallery'))}}
+                {{m.li(lang.nav.lite, config.settings.litepaper, {target:'_blank'})}}
+            </ul>
+        </nav>
+        <div class="r">
+            <a href="{{config.settings.staking}}" title="{{lang.header.stack}} {{lang.header.alpha|lower}}" class="bn stck" target="_blank">
+                <strong><span class="dr">{{lang.header.stack}}</span><span class="hov">{{lang.header.stack}}</span></strong>
+                <small>{{lang.header.alpha}}</small>
+            </a>
+            <button id="bnv" class="bnv bn cader" type="button" aria-label="Nav">
+                <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <path class="l-1" d="M0,42h62c13,0,6,26-4,16L35,35"></path>
+                    <path class="l-2" d="M0,50h70"></path>
+                    <path class="l-3" d="M0,58h62c13,0,6-26-4-16L35,65"></path>
+                </svg>
+            </button>
+        </div>
+    </div>
+</header>

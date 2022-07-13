@@ -1,0 +1,101 @@
+Options -Indexes
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+    RewriteRule ^/?([a-zA-Z_]+)/devblog/add index.php?lang=$1&p=devblogAdd [L,QSA]
+	RewriteRule ^/?([a-zA-Z_]+)/devblog/([a-zA-Z0-9\-]+)$ index.php?lang=$1&p=devblog&id=$2 [L,QSA]
+	RewriteRule ^/?([a-zA-Z_]+)/devblog index.php?lang=$1&p=devblog [L,QSA]
+
+	RewriteRule ^/?([a-zA-Z_]+)/log index.php?lang=$1&p=log [L,QSA]
+  RewriteRule ^/?([a-zA-Z_]+)/gallery index.php?lang=$1&p=gallery [L,QSA]
+  RewriteRule ^/?([a-zA-Z_]+)/team index.php?lang=$1&p=team [L,QSA]
+	RewriteRule ^/?([a-zA-Z_]+)/home index.php?lang=$1&p=home [L,QSA]
+
+	RewriteRule ^/?([a-zA-Z_]+)/$ index.php?lang=$1&p=home [L,QSA]
+	RewriteRule ^/?([a-zA-Z_]+)$ index.php?lang=$1&p=home [L,QSA]
+
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/shtml
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript
+</IfModule> 
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+
+ # Images
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/gif "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType image/x-icon "access plus 1 year"
+
+  # Video
+  ExpiresByType video/webm "access plus 1 year"
+  ExpiresByType video/mp4 "access plus 1 year"
+  ExpiresByType video/mpeg "access plus 1 year"
+
+  # Fonts
+  ExpiresByType font/ttf "access plus 1 year"
+  ExpiresByType font/otf "access plus 1 year"
+  ExpiresByType font/woff "access plus 1 year"
+  ExpiresByType font/woff2 "access plus 1 year"
+  ExpiresByType application/font-woff "access plus 1 year"
+
+  # CSS, JavaScript
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType text/javascript "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+
+  # Others
+  ExpiresByType application/pdf "access plus 1 month"
+  ExpiresByType image/vnd.microsoft.icon "access plus 1 year"
+</IfModule>
+
+ReWriteCond %{HTTP:accept-encoding} gzip
+RewriteCond %{HTTP_USER_AGENT} !Safari
+ReWriteCond %{REQUEST_FILENAME} !^.+\.gz$
+RewriteCond %{REQUEST_FILENAME}.gz -f
+RewriteRule ^(.+) $1.gz [QSA,L]
+<IfModule mod_gzip.c>
+mod_gzip_on Yes
+mod_gzip_dechunk Yes
+mod_gzip_keep_workfiles No
+mod_gzip_can_negotiate Yes
+mod_gzip_add_header_count Yes
+mod_gzip_send_vary Yes
+mod_gzip_command_version '/mod_gzip_status'
+mod_gzip_min_http 1000
+mod_gzip_minimum_file_size 300
+mod_gzip_maximum_file_size 512000
+mod_gzip_maximum_inmem_size 60000
+mod_gzip_handle_methods GET POST
+mod_gzip_temp_dir /tmp
+mod_gzip_item_include file \.html$
+mod_gzip_item_include file \.php$
+mod_gzip_item_include file \.pl$
+mod_gzip_item_include file \.rb$
+mod_gzip_item_include file \.py$
+mod_gzip_item_include file \.cgi$
+mod_gzip_item_include file \.css$
+mod_gzip_item_include file \.js$
+mod_gzip_item_include mime ^application/javascript$
+mod_gzip_item_include mime ^application/x-javascript$
+mod_gzip_item_include mime ^text/.*
+mod_gzip_item_include mime ^httpd/unix-directory$
+mod_gzip_item_include handler ^cgi-script$
+mod_gzip_item_include handler ^server-status$
+mod_gzip_item_include handler ^server-info$
+mod_gzip_item_include handler ^application/x-httpd-php
+mod_gzip_item_exclude mime ^image/.*
+</IfModule>

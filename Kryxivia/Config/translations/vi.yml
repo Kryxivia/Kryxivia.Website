@@ -1,0 +1,119 @@
+play:
+    tit: Đang chơi!
+    alpha: Truy cập Alpha!
+
+all:
+    name: Kryxivia
+    backh: Quay lại trang chủ
+    buy: Mua vào %name%
+    soon: Sắp có
+    close: Đóng
+    seeimg: Xem hình
+    play: Nghe
+    pause: Tạm ngừng
+    music: Âm nhạc
+
+head:
+    home:
+        title: Kryxivia • Một trò chơi MMORPG sáng tạo tận dụng NFT trên blockchain
+        desc: Chào mừng đến với Kryxivia! Một trò chơi web MMORPG 3D NFT đa vũ trụ trên blockchain. Trải nghiệm chơi game sáng tạo mới để giành chiến thắng. Sử dụng mạng Chuỗi thông minh Binance.
+    devblog:
+        title: Devblog • Cập nhật và tin tức về trò chơi Kryxivia
+        desc: Khám phá tất cả các bản cập nhật và tin tức được xuất bản bởi Krixiva
+    team:
+        title: Nhóm • Khám phá nhóm Kryxivia
+        desc: Các nhà phát triển, nghệ sĩ 3D, nhà thiết kế và lập trình viên tạo nên nhóm MMORPG Kryxivia.
+    gallery:
+        title: Thư viện • Khám phá thế giới Kryxivia bằng hình ảnh
+        desc: Theo dõi cuộc phiêu lưu với ảnh chụp màn hình và hình minh họa về thế giới Kryxivia.
+
+header:
+    stack: Truy cập ứng dụng
+    alpha: Quyền truy cập alpha sớm
+
+nav:
+    doc: Tài liệu
+    team: Đội
+    dev: Devblog
+    gal: Phòng trưng bày
+    lite: Litepaper
+
+home: 
+    sub: Một trò chơi MMORPG sáng tạo tận dụng NFT trên blockchain
+    title: Trải nghiệm chơi để kiếm tiền
+    now: Mua $KXA ngay bây giờ trên
+    made: Được thiết kế với
+    propuls: Được cung cấp bởi
+
+token:
+    doc: Tài liệu
+    sub: Một MMORPG 3D tương tác và vui nhộn
+    title: <small><strong class="dr">Tiền điện tử</strong> như một</small> cuộc cách mạng kinh tế trò chơi
+    trailer: Đoạn phim giới thiệu
+    gp: Chơi trò chơi
+    txt: |
+        <p>Chơi ngay bây giờ một MMORPG 3D tương tác và thú vị trên trình duyệt của bạn với bạn bè của bạn, đồng thời thu thập các NFT mà bạn trao phần thưởng được hỗ trợ bởi các khoản lợi nhuận từ tài sản tiền điện tử giành được từ quá trình của bạn trong vũ trụ Kryxivia!</p>
+        <p>Trên Kryxivia, chúng tôi tận dụng các tính năng tốt nhất mà blockchain có thể cung cấp để mang lại cho bạn nền kinh tế tốt nhất trong trải nghiệm chơi game.</p>
+    kxa:
+        title: $KXA Token
+        txt: |
+            <p>Mã thông báo KXA, viết tắt của mã thông báo Kryxivia Coin được triển khai trên Chuỗi thông minh Binance là tiền điện tử cơ sở để thanh toán trên chuỗi và các gói đặc biệt như gói khởi động, sự kiện bán NFT đặc biệt hoặc đổi lấy tiền tệ trong trò chơi KXS.</p>
+    kxs:
+        title: $KXS Token
+        txt: |
+            <p>Mã thông báo KXS, viết tắt của Kryxivia Shard Coin được triển khai trên Chuỗi thông minh Binance là tiền tệ trực tuyến để chơi, mua, giao dịch và có các nội dung trực tuyến mới trong thế giới Kryxivia, vì nó mang nhiều rủi ro hơn và các động thái kinh tế, nó cần để có một nguồn cung cấp khổng lồ để mọi người chơi có thể có một số để chơi cùng.</p>
+
+press:
+    sub: Các bài báo chí
+    title: Họ nói về chúng tôi
+    read: Đọc bài báo
+
+partners:
+    sub: Họ tin tưởng chúng tôi
+    title: Những cộng sự của chúng ta
+
+info:
+    sub: Thành phố Kryxivia
+    title: Trò chơi <strong class="dr">thống kê</strong>
+    txt: |
+        <p>Hãy đến trong trò chơi và xây dựng một nhân vật mạnh mẽ, trở thành một trong những nhà thám hiểm đáng sợ nhất của thành phố Kryxivia!</p>
+        <p>Bằng cách tham gia mỏ Kryxivia cùng với bạn bè, bạn sẽ chiến đấu chống lại những tên trùm khó nhất và chứng tỏ giá trị của mình với mọi người để sau đó được thưởng những Kryxits và vật phẩm kỳ diệu mà bạn sẽ cướp được.</p>
+    player: Người chơi trực tuyến
+    capkxa: KXA Vốn hóa thị trường
+    capkxs: KXS Vốn hóa thị trường
+    nft: Kryxivia NFT Đúc
+    more: Tìm hiểu thêm
+
+devblog:
+    title: <strong class="dr">Devblog</strong> Cập nhật và tin tức
+    publish: Đăng vào %d%/%m%/%y% lúc %h%:%i%
+    category:
+        1: Thông báo
+        2: Phát triển
+        3: Cập nhật
+        4: Sự kiện
+        5: Kryxivia
+        6: Web
+        7: Khác
+
+footer:
+    copy: <strong>Kryxivia © 2021-2022</strong>. Đã đăng ký Bản quyền.
+    ress: Tài nguyên
+    follow: Theo chúng tôi
+    contrat: Kiểm toán hợp đồng
+    doc: Tài liệu
+    article: Medium Bài viết
+
+team:
+    title: <strong class="dr">Đội</strong> Kryxivia
+    group:
+        1: Lãnh đạo
+        2: Phát triển trò chơi
+        3: Nhà thiết kế, nghệ sĩ 3D & VFX
+        4: Nhà thiết kế đồ họa & web
+        5: Tiếp thị
+        6: Nhà thiết kế âm thanh
+        7: Kiểm duyệt
+
+gallery:
+    title: <strong class="dr">Phòng trưng bày</strong> Bức ảnh

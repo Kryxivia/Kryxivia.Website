@@ -1,0 +1,206 @@
+#
+# @yaml:   config.yml
+# @type:   Configuration
+#
+
+params:
+
+    lang: en,fr,zh,id,vi,hi,ar,tr,jp,es,pt,ru,et
+
+    thcolor: 843eef
+
+    cache: # ne pas modifier les chemins /!\
+        minifier: false # false OR true
+        app: path/tmp/app # false OR path/tmp/app
+
+log:
+    user: aa909a19101cdb6cae21bd42d09219260eab77e117dc130394ee357806d08bd089770749ca8a44ca95aa6a634b90535fde6bcb904cf9a65dbc797ccb3f95bf23
+    pass: 3059bd4de0dd57e45096e699f22c2b6c32e1760a4c1e226e18bac20b0eb4b60e7f0c338dd609d38c6276cc5cc37b7b5f5258414fa807c192d66d0df173fa0744
+
+settings:
+
+    video:
+        trailer: KSp3Upu2U4c
+        gameplay: thGT4OTpe48
+
+    doc: https://docs.kryxivia.io/
+    staking: https://app.kryxivia.io/
+    litepaper: https://kryxivia.io/kryxivia_paper.pdf
+    github: https://github.com/Kryxivia
+    contract: https://github.com/solidproof/smart-contract-audits/blob/main/SmartContract_Audit_Solidproof_KryxiviaCoinContract.pdf
+
+    social:
+        telegram: https://t.me/kryxivia
+        twitter: https://twitter.com/kryxivia
+        reddit: https://www.reddit.com/r/kryxivia/
+        discord: https://discord.gg/kryxivia
+        medium: https://kryxivia.medium.com/
+        linkedin: https://www.linkedin.com/company/kryxivia
+        instagram: https://www.instagram.com/kryxivia/
+
+    kxa:
+        base: 250000000
+        address: 0x2223bF1D7c19EF7C06DAB88938EC7B85952cCd89
+        coinmarketcap: https://coinmarketcap.com/fr/currencies/kryxivia/
+        doc: https://docs.kryxivia.io/kryxivia-coin-kxa-main-blockchain-currency/presentation-and-tokenomics
+        dextools: https://www.dextools.io/app/bsc/pair-explorer/0x4f76093a28655c8329295eae352d21fd2e27ca4b
+        pancakeswap: https://pancakeswap.finance/swap?outputCurrency=0x2223bf1d7c19ef7c06dab88938ec7b85952ccd89
+        mexc: https://www.mexc.com/exchange/KXA_USDT
+        data: https://kryx-app-web-api.azurewebsites.net/api/v1/stats/price/KXA
+
+    kxs:
+        address: 0x3A45DE9d92B45E29Eb46C2554cd70B9aa7FC6ACC
+        coinmarketcap: 0
+        doc: https://docs.kryxivia.io/kryxit-shard-kxs-in-game-currency/presentation-and-tokenomics
+        dextools: 0
+        pancakeswap: 0
+        mexc: 0
+
+team:
+
+    fred:
+        lang: fr
+        name: Frédérick MARINHO
+        photo: fred
+        cat: 1
+        poste: Chief Executive Officer
+        social:
+            linkedin: https://www.linkedin.com/in/fr%C3%A9d%C3%A9rick-marinho-4ba80761/
+    antoine: 
+        lang: fr
+        name: Antoine LELIEVRE
+        photo: antoine
+        cat: 2
+        poste: Chief Technical Officer
+    jean:
+        lang: fr
+        name: Jean ROMAGNANI
+        photo: jean
+        cat: 2
+        poste: Lead Client Gameplay
+    babacar:
+        lang: fr
+        name: Babacar CISS
+        photo: babacar
+        cat: 2
+        poste: Lead Client Engineer
+    noe:
+        lang: fr
+        name: Noé MOURTON-COMTE
+        photo: noe
+        cat: 2
+        poste: Lead Blockchain Engineer
+    jeremy:
+        lang: fr
+        name: Jérémy GUYET
+        photo: jeremy
+        cat: 2
+        poste: Software Full-Stack Engineer
+    val:
+        lang: fr
+        name: Valentin SAPPA
+        photo: null
+        cat: 2
+        poste: Unity 3D Developer
+    brian:
+        lang: us
+        name: Brian BENTO
+        photo: null
+        cat: 2
+        poste: Full Stack Developer
+    leslie:
+        lang: fr
+        name: Leslie R.
+        photo: leslie
+        cat: 3
+        poste: Development / Scripting & 3D Artist
+    marie:
+        lang: fr
+        name: Marie GUFFROY
+        photo: marie
+        cat: 3
+        poste: VFX Game Designer
+    idris:
+        lang: fr
+        name: Idris OULMANE
+        photo: idris
+        cat: 3
+        poste: Level designer / 3d Art
+    leo:
+        lang: fr
+        name: Léonard SORIGNET-GAUTROT
+        photo: leonard
+        cat: 3
+        poste: 3d Character / Items Artist
+    dust:
+        lang: is
+        name: N-Hance Studio
+        photo: nhance
+        cat: 3
+        poste: Partner Studio / 3d Character
+    nico:
+        lang: fr
+        name: Nicolas VALENTIN
+        photo: null
+        cat: 3
+        poste: Game designer consultant
+    nicow:
+        lang: fr
+        name: Nicolas DURAND
+        photo: nicow
+        cat: 4
+        poste: Lead Graphic UX / Web Designer
+    lash:
+        lang: hi
+        name: Lakshay GUPTA 
+        cat: 4
+        photo: lash
+        poste: Graphic designer
+    explorer:
+        lang: fr
+        name: Kryxivia Explorer
+        cat: 5
+        poste: Marketing Executive
+    mina:
+        lang: fr
+        name: Mina SAIDI
+        photo: mina
+        cat: 5
+        poste: Community Manager
+    bruno:
+        lang: fr
+        name: Bruno COUTINHO
+        photo: bruno
+        cat: 4
+        poste: Movie Maker
+    ibra:
+        lang: tr
+        name: Ibrahim C.
+        photo: null
+        cat: 7
+        poste: Discord Moderator
+    ibn:
+        lang: us
+        name: Ibn Crypto
+        photo: null
+        cat: 7
+        poste: Discord Moderator
+    nana:
+        lang: zh
+        name: Nana
+        photo: null
+        cat: 7
+        poste: Discord Moderator
+    kiko:
+        lang: fr
+        name: Jordan K.
+        photo: null
+        cat: 7
+        poste: Discord Moderator
+    remi:
+        lang: fr
+        name: Rémi AGULLO
+        photo: remi
+        cat: 6
+        poste: Sound designer
+

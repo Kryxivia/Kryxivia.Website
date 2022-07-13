@@ -1,0 +1,99 @@
+{
+    "cover": "kryxivia-twitch-cover.jpg",
+    "category": "2",
+    "date": 1648753759,
+    "lang": {
+        "en": {
+            "title": "Kryxivia Pre-alpha update",
+            "desc": "#3 | Some update from the Team about the alpha coming soon",
+            "content": {
+                "1": {
+                    "type": "title",
+                    "c": "Welcome back for a new post on the Kryxivia devblog!"
+                },
+                "2": {
+                    "type": "txt",
+                    "c": "It's been a long time since we last posted an article on the blog. Indeed, the team has been focused on the constant improvement of the game for the upcoming alpha. The upcoming alpha version has nothing to do with the first test versions as the team progresses so much: the UI has been completely updated, new spells have been added, new dungeons, NFT import/export is functional, etc."
+                },
+                "3": {
+                    "type": "txt",
+                    "c": "This post will focus mainly on the visual improvements."
+                },
+                "4": {
+                    "type": "title",
+                    "c": "UI/UX improvements"
+                },
+                "5": {
+                    "type": "txt",
+                    "c": "The menus have been completely modified to be in the same colors as Kryxivia, it will be possible to change them as you like:"
+                },
+                "6": {
+                    "type": "img",
+                    "c": "kryxivia-ui-button-2.png",
+                    "a": "UI Kryxivia button"
+                },
+                "7": {
+                    "type": "txt",
+                    "c": "The group and dungeon menu has been updated:"
+                }, 
+                "8": {
+                    "type": "img",
+                    "c": "kryxivia-ui-dungeon-group-2.png",
+                    "a": "Kryxivia group and dungeon"
+                },  
+                "9": {
+                    "type": "txt",
+                    "c": "Here is an overview of the inventory:"
+                }, 
+                "10": {
+                    "type": "img",
+                    "c": "kryxivia-inventory-2.png",
+                    "a": "Kryxivia inventory"
+                },   
+                "11": {
+                    "type": "txt",
+                    "c": "It will be possible to add Kryxits to your items to increase their specs!"
+                },
+                "12": {
+                    "type": "img",
+                    "c": "kryxivia-ui-krixits-2.png",
+                    "a": "Kryxivia inventory Kryxits"
+                },   
+                "13": {
+                    "type": "title",
+                    "c": "NFT import/export"
+                },
+                "14": {
+                    "type": "txt",
+                    "c": "The import/export system has been implemented via an NPC. We will let early stakers who have access to the Alpha discover their unique NFT in game after talking to this NPC !"
+                },
+                "15": {
+                    "type": "img",
+                    "c": "kryxivia-nft-import-2.png",
+                    "a": "Kryxivia NFT import"
+                },
+                "16": {
+                    "type": "title",
+                    "c": "Spells menu"
+                },
+                "17": {
+                    "type": "txt",
+                    "c": "The spell menu has also been redesigned. We added the drag of the spells directly in the bar of the spells:"
+                },
+                "18": {
+                    "type": "img",
+                    "c": "kryxivia-spells.png",
+                    "a": "Kryxivia Spells"
+                },
+                "19": {
+                    "type": "txt",
+                    "c": "We can't wait to show you the world of Kryxivia and all our advancements at the launch of the alpha."
+                },
+                "20": {
+                    "type": "txt",
+                    "c": "Tomorrow you can have a preview while waiting for the alpha launch : we will stream the game on Twitch with some team members at 13:00 UTC on our official Twitch channel : <a href='https://twitch.tv/kryxiviaoff' title='go' target='_blank' rel='noopener noreferrer'>https://twitch.tv/kryxiviaoff</a>"
+                }
+            }
+        }
+    }
+}

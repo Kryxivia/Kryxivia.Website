@@ -1,0 +1,119 @@
+play:
+    tit: Play now!
+    alpha: Alpha Access!
+
+all:
+    name: Kryxivia
+    backh: Back to homepage
+    buy: Buy on %name%
+    soon: Coming soon
+    close: Close
+    seeimg: See picture
+    play: Play
+    pause: Pause
+    music: Music
+
+head:
+    home:
+        title: Kryxivia • An innovative MMORPG game leveraging NFT on blockchain
+        desc: Welcome to Kryxivia! A 3D NFT Multiverse MMORPG web game on blockchain. A new innovative gaming experience to win. Use of the Binance Smart Chain network.
+    devblog:
+        title: Devblog • Updates & news of the game Kryxivia
+        desc: Discover all the updates & news published by the Krixiva
+    team:
+        title: The team • Discover the Kryxivia team
+        desc: Developers, 3D artists, designers & programmers who make up the MMORPG Kryxivia team.
+    gallery:
+        title: Gallery • Discover the world of Kryxivia in pictures
+        desc: Follow the adventure with screenshots & illustrations on the world of Kryxivia.
+
+header:
+    stack: Access to apps
+    alpha: Early alpha access
+
+nav:
+    doc: Documentation
+    team: The team
+    dev: Devblog
+    gal: Gallery
+    lite: Litepaper
+
+home: 
+    sub: An innovative MMORPG game leveraging NFT on blockchain
+    title: Play-to-earn experience
+    now: Buy $KXA now on
+    made: Designed with
+    propuls: Powered by
+
+token:
+    doc: Documentation
+    sub: An interactive and fun 3D MMORPG
+    title: <small><strong class="dr">Crypto-currencies</strong> as</small> a gaming economy revolution
+    trailer: Trailer
+    gp: Gameplay
+    txt: |
+        <p>Play now an interactive and fun 3D MMORPG on your browser with your friends, while collecting NFTs that you give rewards backed by crypto-assets returns won from your progress in the Kryxivia universe!</p>
+        <p>On Kryxivia, we leverage the best features that blockchain's can offer to give you the best economy in gaming experience.</p>
+    kxa:
+        title: $KXA Token
+        txt: |
+            <p>The KXA token, which stands for Kryxivia Coin token deployed on the Binance Smart Chain is the base crypto-currency for on-chain payment and special packs such as starter packs, special NFT sell events, or exchanging for the in-game currency KXS.</p>
+    kxs:
+        title: $KXS Token
+        txt: |
+            <p>The KXS token, which stands for Kryxivia Shard Coin deployed on the Binance Smart Chain is the online currency to play, buy, trade, and have new online pieces of stuff in the Kryxivia world, as it carries more risk and economic moves, it needs to have a huge supply so that every player can have some to play with.</p>
+
+press:
+    sub: Press articles
+    title: They talk about us
+    read: Read the article
+
+partners:
+    sub: They trust us
+    title: Our partners
+
+info:
+    sub: Kryxivia city
+    title: Game <strong class="dr">statistics</strong>
+    txt: |
+        <p>Come in-game and build a powerful character, become one of the most feared adventurer of the Kryxivia city!</p>
+        <p>By joining the Kryxivia mine with your friends, you will fight against the hardest bosses and prove your worth to everyone to then be rewarded with the magical Kryxits and items that you will loot in.</p>
+    player: Players online
+    capkxa: KXA Marketcap
+    capkxs: KXS Marketcap
+    nft: Kryxivia NFT Minted
+    more: Find out more
+
+devblog:
+    title: <strong class="dr">Devblog</strong> Updates & news
+    publish: Posted %d%/%m%/%y% %h%:%i%
+    category:
+        1: Announcement
+        2: Development
+        3: Update
+        4: Event
+        5: Kryxivia
+        6: Web
+        7: Diverse
+
+footer:
+    copy: <strong>Kryxivia © 2021-2022</strong>. All rights reserved.
+    ress: Resources
+    follow: Follow us
+    contrat: Contracts Audits
+    doc: Documentation
+    article: Medium Articles
+
+team:
+    title: <strong class="dr">The team</strong> of Kryxivia
+    group:
+        1: Leader
+        2: Game development
+        3: Designer, 3D & VFX artist
+        4: Graphic designer & web
+        5: Marketing
+        6: Sound Designer
+        7: Moderation
+
+gallery:
+    title: <strong class="dr">Gallery</strong> Image

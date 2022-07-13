@@ -1,0 +1,120 @@
+play:
+    tit: 再生中 ！
+    alpha: アルファアクセス！
+
+all:
+    name: Kryxivia
+    backh: トップページに戻る
+    buy: 購入する %name%
+    soon: 近日公開予定
+    close: 閉じる
+    seeimg: 画像を見る
+    play: 聞くには
+    pause: 一時停止
+    music: 音楽
+
+head:
+    home:
+        title: Kryxivia • ブロックチェーン上のNFTを活用した革新的なMMORPGゲーム
+        desc: Kryxiviaへようこそ! ブロックチェーン上の3D NFTマルチバースMMORPGのWebゲームです。勝つための新しい革新的なゲーム体験。Binanceスマートチェーンネットワークを使用。
+    devblog:
+        title: ブログ • ゲームKryxiviaのアップデートとニュース
+        desc: Krixivaが発表したすべてのアップデートとニュースをご覧ください。
+    team:
+        title: チーム • Kryxiviaチームの紹介
+        desc: MMORPG「Kryxivia」チームを構成する開発者、3Dアーティスト、デザイナー、プログラマーたち。
+    gallery:
+        title: ギャラリー • 写真で見るKryxiviaの世界
+        desc: Kryxiviaの世界をスクリーンショットとイラストで冒険してください。
+
+header:
+    stack: アプリにアクセスする
+    alpha: アーリーアルファアクセス
+
+nav:
+    doc: ドキュメンテーション
+    team: チーム
+    dev: ブログ
+    gal: ギャラリー
+    lite: ライトペーパ
+
+home: 
+    sub: ブロックチェーン上のNFTを活用した革新的なMMORPGゲーム
+    title: プレイ・トゥ・アーンの経験
+    now: 今すぐ $KXA を購入する
+    made: で設計されています。
+    propuls: 搭載
+
+token:
+    doc: ドキュメンテーション
+    sub: インタラクティブで楽しい3D MMORPG
+    title: <small>ゲーム経済革命としての</small> <strong class="dr">暗号通貨</strong>
+    trailer: 予告編
+    gp: ゲームプレイ
+    txt: |
+        <p>Kryxivia宇宙でのあなたの進歩から獲得した暗号資産リターンに支えられた報酬を与えるNFTsを収集しながら、お友達とブラウザ上でインタラクティブで楽しい3D MMORPGを今すぐプレイ!</p>
+        <p>On Kryxivia, we leverage the best features that blockchain's can offer to give you the best economy in gaming experience.</p>
+    kxa:
+        title: $KXA Token
+        txt: |
+            <p>Binanceスマートチェーン上に展開されるKryxivia Coinトークンの略であるKXAトークンは、オンチェーン決済やスターターパックなどの特別パック、NFT特別販売イベント、ゲーム内通貨KXSとの交換のためのベース暗号通貨となります。</p>
+    kxs:
+        title: $KXS Token
+        txt: |
+            <p>Binanceのスマートチェーンに展開されているKryxivia Shard Coinを意味するKXSトークンは、Kryxiviaの世界で遊び、買い、取引し、新しいオンライン作品を持つためのオンライン通貨で、よりリスクと経済の動きを伴うため、すべてのプレイヤーが遊ぶためにいくらか持っていられるように膨大な供給量を持つ必要があるのです。</p>
+
+press:
+    sub: プレスリリース
+    title: 私たちのことを話してくれる
+    read: 記事を読む
+
+partners:
+    sub: 信頼されている
+    title: パートナー企業
+
+info:
+    sub: Kryxivia 市
+    title: ゲーム <strong class="dr">統計</strong>
+    txt: |
+        <p>ゲーム内で強力なキャラクターを作り、クリキシビアの街で最も恐れられる冒険者の一人になろう!</p>
+        <p>仲間とともにクリキシビア鉱山に入り、難易度の高いボスと戦い、自分の価値を皆に証明することで、魔法のクリキシットや略奪したアイテムが報酬としてもらえます。</p>
+    player: オンラインプレーヤー
+    capkxa: KXA マーケットキャップ
+    capkxs: KXS マーケットキャップ
+    nft: Kryxivia NFT ミンテッド
+    more: 詳細はこちら
+
+devblog:
+    title: <strong class="dr">ブログ</strong> 更新情報・ニュース
+    publish: |
+        投稿日時: %d%/%m%/%y% %h%:%i%
+    category:
+        1: 発表
+        2: 開発
+        3: アップデート
+        4: イベント
+        5: Kryxivia
+        6: ウェブ
+        7: 多様性
+
+footer:
+    copy: <strong>Kryxivia © 2021-2022</strong>. 無断転載禁止.
+    ress: リソース
+    follow: フォローする
+    contrat: 契約書監査
+    doc: ドキュメンテーション
+    article: Medium 記事一覧
+
+team:
+    title: <strong class="dr">チーム</strong> Kryxivia
+    group:
+        1: リーダー
+        2: ゲーム開発
+        3: デザイナー、3D・VFXアーティスト
+        4: グラフィックデザイナー＆ウェブ
+        5: マーケティング
+        6: サウンドデザイナー
+        7: モデレーション
+
+gallery:
+    title: <strong class="dr">ギャラリー</strong> 画像

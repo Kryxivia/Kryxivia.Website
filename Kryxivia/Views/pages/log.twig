@@ -1,0 +1,25 @@
+{% extends 'app.twig' %}
+{% import 'inc/macros.twig' as m %}
+{% block robots %}
+	<meta name="robots" content="noindex">
+	<meta name="googlebot" content="noindex">
+	<style>
+		#app{min-height:100vh;}
+		form{position:absolute;display:flex;width:100vw;height:100vh;justify-content:center;align-items:center;flex-direction:column;}
+		form input{padding:8px 10px;background:#000;color:#fff;}
+	</style>
+{% endblock %}
+{% block header %}{% endblock %}
+{% block info %}{% endblock %}
+{% block footer %}{% endblock %}
+{% block content %}
+	<form action="{{link('log')}}" method="post">
+		{{result ? result}}
+		<br>
+		<input name="user" type="text" placeholder="User">
+		<br>
+		<input name="pw" type="password" placeholder="Password">
+		<br>
+		<button class="bn small"><span>Connexion</span></button>
+	</form>
+{% endblock %}

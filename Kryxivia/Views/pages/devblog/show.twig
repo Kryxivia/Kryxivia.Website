@@ -1,0 +1,55 @@
+{% extends 'app.twig' %}
+{% import 'inc/macros.twig' as m %}
+{% set a = article %}
+{% set at = a.lang['en'] %}
+{% block css %}
+    {{'devblog'|minifier(['mods/default', 'pages/devblog'])|raw}}
+{% endblock %}		
+{% block head %}
+    {% include 'inc/head.twig' with {
+    	title: at.title,
+    	desc: at.desc,
+    	urlAlternate: null,
+        thumb: 'devblog/'~a.cover
+	} %}
+    {% for code in config.params.lang|split(',') if code != langCode %}
+        <link rel="alternate" href="{{host~code}}/devblog/{{(a.lang['en'].title)|urlTransform}}" hreflang="{{code}}">
+    {% endfor %}
+    <script type="application/ld+json" class="yoast-schema-graph">
+        {
+          "@context": "https://schema.org",
+          "@type": "NewsArticle",
+          "headline": "{{at.title}}",
+          "image": [
+            "{{host~asset(a.cover)|replace({'/assets/':'assets/img/devblog/'})}}"
+          ],
+          "datePublished": "{{a.date|date('c')}}",
+          "dateModified": "{{a.date|date('c')}}",
+          // "author": {
+          //   "@type": "Person",
+          //   "name": "{{author.name}}",
+          //   "url": "http://example.com/profile/johndoe123"
+          // },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Kryxivia",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "{{host~asset('img/logo-kryxivia.png')|replace({'/assets/':'assets/'})}}"
+            }
+          }
+        }
+    </script>
+{% endblock %}
+{% block content %}
+    <article itemscope="itemscope" class="dvs">
+    	{{m.Title('<strong class="dr">'~at.title~'</strong>', {article:true,time:a.date,category:a.category})}}
+        <main id="m" itemprop="text">
+            <div class="ct">
+                {% for content in at.content %}
+                    {{m.BlocArticle(content.type, content)}}
+                {% endfor %}
+            </div>
+        </main>
+    </article>
+{% endblock %}

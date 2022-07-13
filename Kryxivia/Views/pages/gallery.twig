@@ -1,0 +1,34 @@
+{% extends 'app.twig' %}
+{% import 'inc/macros.twig' as m %}
+{% block css %}
+	{{'gallery'|minifier(['mods/default', 'pages/gallery'])|raw}}
+{% endblock %}
+{% block js %}
+    {{'gallery'|minifierJS(['grid'], ['gallery'])|raw}}
+{% endblock %}
+{% block head %}
+    {% include 'inc/head.twig' with {
+    	title: lang.head.gallery.title,
+    	desc: lang.head.gallery.desc,
+    	urlAlternate: '/gallery'
+	} %}
+{% endblock %}
+{% block content %}
+	{{m.Title(lang.gallery.title)}}
+	<main id="m" class="gal">
+		<div class="ct">
+			<div class="grid">
+				{% for img in gallery if '.jpg' in img or '.jpeg' in img %}
+					{% set info = img|split('.') %}
+					{% set name = info.0|replace({'-':' ','_':' '}) %}
+					<div>
+						<figure>
+							<img src="{{asset('img/gallery/'~img)}}" width="100" height="100" alt="Kryxivia © {{name}}">
+							<figcaption>Kryxivia © {{name}}</figcaption>
+						</figure>
+					</div>
+				{% endfor %}
+			</div>
+		</div>
+	</main>
+{% endblock %}

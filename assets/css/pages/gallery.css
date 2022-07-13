@@ -1,0 +1,21 @@
+/* gallery */
+
+.gal .ct{width:calc(1000px + 400 * (100vw - 320px) / 1080);}
+.grid{display:flex;flex-wrap:wrap;}
+.grid > div{width:calc(33% - 20px);height:auto;display:flex;justify-content:center;align-items:center;}
+.grid > div img{height:auto;width:100%!important;border-radius:var(--radius_1);box-shadow:0 10px 25px rgba(0,0,0,.8), 0 0 0 1px rgba(255,255,255,.2) inset;}
+.grid > div figure{width:100%;display:block;}
+.grid > div figcaption{font-size:10px;font-weight:bold;position:absolute;bottom:5px;left:5px;opacity:.3;}
+
+/* media */
+    
+@media screen and (max-width:1150px){
+
+    .grid > div{width:calc(50% - 20px);}
+
+}
+@media screen and (max-width:750px){
+
+    .grid > div{width:calc(100% - 20px);}
+
+}

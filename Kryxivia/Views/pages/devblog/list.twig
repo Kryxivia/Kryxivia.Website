@@ -1,0 +1,26 @@
+{% extends 'app.twig' %}
+{% import 'inc/macros.twig' as m %}
+{% block css %}
+    {{'devblog'|minifier(['mods/default', 'pages/devblog'])|raw}}
+{% endblock %}		
+{% block head %}
+    {% include 'inc/head.twig' with {
+    	title: lang.head.devblog.title,
+    	desc: lang.head.devblog.desc,
+    	urlAlternate: '/devblog'
+	} %}
+{% endblock %}
+{% block content %}
+	{{m.Title(lang.devblog.title)}}
+    <main id="m">
+        <div class="ct">
+            <div id="dv">
+                <div class="l">
+                    {% for a in article|sort((a, b) => b.date <=> a.date) %}
+                        {{m.Article(a, (article|length - loop.index + 1))}}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </main>
+{% endblock %}

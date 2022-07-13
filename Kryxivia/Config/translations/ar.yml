@@ -1,0 +1,119 @@
+play:
+    tit: الان العب !
+    alpha: وصول ألفا!
+
+all:
+    name: Kryxivia
+    backh: العودة إلى الصفحة الرئيسية
+    buy: شراء على %name%
+    soon: قريبا
+    close: قريب
+    seeimg: انظر الصورة
+    play: للاستماع
+    pause: يوقف
+    music: موسيقى
+
+head:
+    home:
+        title: Kryxivia • لعبة MMORPG مبتكرة تستفيد من NFT على blockchain
+        desc: مرحبًا بكم في Kryxivia! لعبة ويب 3D NFT Multiverse MMORPG على blockchain. تجربة ألعاب مبتكرة جديدة للفوز. استخدام شبكة Binance Smart Chain.
+    devblog:
+        title: مدونة • تحديثات وأخبار لعبة Kryxivia
+        desc: اكتشف كل التحديثات والأخبار التي نشرتها Krixiva
+    team:
+        title: الفريق • اكتشف فريق Kryxivia
+        desc: المطورين والفنانين ثلاثي الأبعاد والمصممين والمبرمجين الذين يشكلون فريق MMORPG Kryxivia.
+    gallery:
+        title: المعرض • اكتشف عالم Kryxivia بالصور
+        desc: تابع المغامرة بلقطات الشاشة والرسوم التوضيحية في عالم Kryxivia.
+
+header:
+    stack: الوصول إلى التطبيقات
+    alpha: الوصول المبكر إلى ألفا
+
+nav:
+    doc: توثيق
+    team: الفريق
+    dev: مدونة
+    gal: صالة عرض
+    lite: ورقة عمل
+
+home: 
+    sub: لعبة MMORPG مبتكرة تستفيد من NFT على blockchain
+    title: العب لاكتساب الخبرة
+    now: اشتر $KXA الآن
+    made: مصممة بـ
+    propuls: مشغل بواسطة
+
+token:
+    doc: توثيق
+    sub: لعبة 3D MMORPG تفاعلية وممتعة
+    title: <small><strong class="dr">العملات الرقمية</strong></small> كثورة اقتصاد الألعاب
+    trailer: عرض مختصر لفيلم
+    gp: اللعب
+    txt: |
+        <p>العب الآن لعبة MMORPG تفاعلية وممتعة ثلاثية الأبعاد على متصفحك مع أصدقائك ، أثناء جمع NFTs التي تمنحها مكافآت مدعومة بعائدات الأصول المشفرة التي ربحتها من تقدمك في عالم Kryxivia!</p>
+        <p>في Kryxivia ، نستفيد من أفضل الميزات التي يمكن أن تقدمها blockchain لمنحك أفضل اقتصاد في تجربة الألعاب.</p>
+    kxa:
+        title: $KXA Token
+        txt: |
+            <p>رمز KXA ، الذي يرمز إلى Kryxivia Coin token المنشور على Binance Smart Chain ، هو العملة المشفرة الأساسية للدفع عبر السلسلة والحزم الخاصة مثل حزم المبتدئين أو أحداث بيع NFT الخاصة أو تبادل العملة داخل اللعبة KXS.</p>
+    kxs:
+        title: $KXS Token
+        txt: |
+            <p>رمز KXS ، الذي يرمز إلى Kryxivia Shard Coin المنتشرة في Binance Smart Chain ، هو العملة عبر الإنترنت للعب ، والشراء ، والتداول ، والحصول على قطع جديدة من الأشياء عبر الإنترنت في عالم Kryxivia ، لأنها تحمل المزيد من المخاطر والتحركات الاقتصادية ، فهي تحتاج الحصول على عرض ضخم حتى يتمكن كل لاعب من الحصول على بعض الألعاب للعب بها.</p>
+
+press:
+    sub: مقالات صحفية
+    title: يتحدثون عنا
+    read: اقرأ المقال
+
+partners:
+    sub: يثقون بنا
+    title: شركاؤنا
+
+info:
+    sub: مدينة كريكسيفيا
+    title: لعبة <strong class="dr">الإحصاء</strong>
+    txt: |
+        <p>تعال إلى اللعبة وقم ببناء شخصية قوية ، وكن أحد أكثر المغامرين رعبًا في مدينة Kryxivia!</p>
+        <p>من خلال الانضمام إلى منجم Kryxivia مع أصدقائك ، سوف تقاتل ضد أصعب الرؤساء وتثبت جدارتك للجميع ثم تكافأ مع Kryxits السحرية والعناصر التي ستنهبها.</p>
+    player: لاعبين عبر الإنترنت
+    capkxa: KXA ماركت كاب
+    capkxs: KXS ماركت كاب
+    nft: Kryxivia NFT سك
+    more: اكتشف المزيد
+
+devblog:
+    title: <strong class="dr">مدونة</strong> التحديثات والأخبار
+    publish: نشرت بتاريخ %d%/%m%/%y% الساعة %h%:%i%
+    category:
+        1: إعلان
+        2: التنمية
+        3: التحديث
+        4: حدث
+        5: كريكسيفيا
+        6: الويب
+        7: متنوع
+
+footer:
+    copy: <strong>Kryxivia © 2021-2022</strong>. كل الحقوق محفوظة.
+    ress: موارد
+    follow: تابعنا
+    contrat: تدقيق العقود
+    doc: توثيق
+    article: Medium مقالات
+
+team:
+    title: <strong class="dr">الفريق</strong> من Kryxivia
+    group:
+        1: قائد
+        2: تطوير اللعبة
+        3: مصمم ، فنان ثلاثي الأبعاد ومؤثرات بصرية
+        4: مصمم جرافيك وويب
+        5: تسويق
+        6: مصمم الصوت
+        7: الاعتدال
+
+gallery:
+    title: <strong class="dr">صالة عرض</strong> صورة

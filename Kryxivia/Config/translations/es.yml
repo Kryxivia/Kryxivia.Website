@@ -1,0 +1,119 @@
+play:
+    tit: Jugando ahora !
+    alpha: ¡Acceso alfa!
+
+all:
+    name: Kryxivia
+    backh: Volver a la página de inicio
+    buy: Comprar en %name%
+    soon: Próximamente
+    close: Cerca
+    seeimg: Ver imagen
+    play: Escuchar
+    pause: Pausa
+    music: Música
+
+head:
+    home:
+        title: Kryxivia • Un innovador juego MMORPG que aprovecha NFT en blockchain
+        desc: ¡Bienvenido a Kryxivia! Un juego web MMORPG 3D NFT Multiverse en blockchain. Una nueva experiencia de juego innovadora para ganar. Uso de la red Binance Smart Chain.
+    devblog:
+        title: Devblog • Actualizaciones y novedades del juego Kryxivia
+        desc: Descubra todas las actualizaciones y noticias publicadas por Krixiva
+    team:
+        title: El equipo • Descubre el equipo de Kryxivia
+        desc: Desarrolladores, artistas 3D, diseñadores y programadores que integran el equipo MMORPG Kryxivia.
+    gallery:
+        title: Galería • Descubre el mundo de Kryxivia en imágenes
+        desc: Sigue la aventura con capturas de pantalla e ilustraciones sobre el mundo de Kryxivia.
+
+header:
+    stack: Acceder a aplicaciones
+    alpha: Acceso alfa temprano
+
+nav:
+    doc: Documentación
+    team: El equipo
+    dev: Devblog
+    gal: Galería
+    lite: Litepaper
+
+home: 
+    sub: Un innovador juego MMORPG que aprovecha NFT en blockchain
+    title: Experiencia de juego para ganar
+    now: Compre $KXA ahora en
+    made: Diseñado con
+    propuls: Energizado por
+
+token:
+    doc: Documentación
+    sub: An interactive and fun 3D MMORPG
+    title: <small>Las <strong class="dr">criptomonedas</strong> como</small> revolución de la economía del juego
+    trailer: Remolque
+    gp: Como se Juega
+    txt: |
+        <p>¡Juega ahora un MMORPG 3D interactivo y divertido en tu navegador con tus amigos, mientras recolectas NFT que otorgas recompensas respaldadas por retornos de criptoactivos ganados por tu progreso en el universo de Kryxivia!</p>
+        <p>En Kryxivia, aprovechamos las mejores características que puede ofrecer blockchain para brindarle la mejor economía en la experiencia de juego.</p>
+    kxa:
+        title: $KXA Token
+        txt: |
+            <p>El token KXA, que significa token de moneda Kryxivia implementado en Binance Smart Chain, es la criptomoneda base para pagos en cadena y paquetes especiales como paquetes de inicio, eventos especiales de venta de NFT o intercambio por la moneda del juego KXS.</p>
+    kxs:
+        title: $KXS Token
+        txt: |
+            <p>El token KXS, que significa Kryxivia Shard Coin implementado en Binance Smart Chain, es la moneda en línea para jugar, comprar, intercambiar y tener nuevas cosas en línea en el mundo Kryxivia, ya que conlleva más riesgos y movimientos económicos, necesita tener un suministro enorme para que todos los jugadores puedan tener algunos con los que jugar.</p>
+
+press:
+    sub: Articulos de prensa
+    title: Ellos hablan de nosotros
+    read: Leer el artículo
+
+partners:
+    sub: Ellos confían en nosotros
+    title: Nuestros compañeros
+
+info:
+    sub: Kryxivia city
+    title: <strong class="dr">Estadísticas</strong> de juego
+    txt: |
+        <p>¡Entra en el juego y construye un personaje poderoso, conviértete en uno de los aventureros más temidos de la ciudad de Kryxivia!</p>
+        <p>Al unirte a la mina Kryxivia con tus amigos, lucharás contra los jefes más duros y demostrarás tu valía a todos para luego ser recompensado con los Kryxits mágicos y los artículos que saquearás.</p>
+    player: Jugadores en linea
+    capkxa: KXA Tapa del mercado
+    capkxs: KXS Tapa del mercado
+    nft: Kryxivia NFT acuñado
+    more: Saber más
+
+devblog:
+    title: <strong class="dr">Devblog</strong> Actualizaciones y novedades
+    publish: Posté el %d%/%m%/%y% a las %h%h%i%
+    category:
+        1: Anuncio
+        2: Desarrollo
+        3: Actualización
+        4: Evento
+        5: Kryxivia
+        6: Web
+        7: Diversa
+
+footer:
+    copy: <strong>Kryxivia © 2021-2022</strong>. Reservados todos los derechos.
+    ress: Recursos
+    follow: Síganos
+    contrat: Auditorías de contratos
+    doc: Documentación
+    article: Artículos medianos
+
+team:
+    title: <strong class="dr">El equipo</strong> de Kryxivia
+    group:
+        1: Líder
+        2: Desarrollo de juegos
+        3: Diseñador, artista 3D y VFX
+        4: Diseñador gráfico y web
+        5: Marketing
+        6: Diseñadora de sonido
+        7: Moderación
+
+gallery:
+    title: <strong class="dr">Gallery</strong> Image

@@ -1,0 +1,45 @@
+{% import 'inc/macros.twig' as m %}
+<div id="do">
+    {{m.img('img/top-ix.png', {width:2000,height:744,cls:'t-ix',alt:lang.all.name})}}
+    <div class="ct">
+        <div class="sub" data-show>{{lang.info.sub}}</div>
+        <h2 class="h2" data-show>{{lang.info.title|raw}}</h2>
+        <div class="p" data-show>
+            {{lang.info.txt|raw}}
+        </div>
+        <ul class="dc">
+            {{m.Info(
+                'knight',
+                'img/knight-kryxivia.png',
+                lang.info.player,
+                'N/A'
+            )}}
+            {{m.Info(
+                'krys',
+                'img/kxa-token_kryxivia.png',
+                lang.info.capkxa,
+                MarketCapKXA|number_format(0, '.', ',')~'$'
+            )}}
+            {{m.Info(
+                'krys',
+                'img/kxs-token_kryxivia.png',
+                lang.info.capkxs,
+                130000|number_format(0, '.', ',')~'$'
+            )}}
+            {{m.Info(
+                'krys',
+                'img/mineted-kryxivia.png',
+                lang.info.nft,
+                'N/A'
+            )}}
+        </ul>
+        <div class="bt" data-show>
+            {{m.bn(lang.info.more, config.settings.doc, {target:'_blank'})}}
+        </div>
+    </div>
+    {{m.img('img/bottom-ix.png', {width:2000,height:744,cls:'b-ix',alt:lang.all.name})}}
+    <div class="bg">
+        <div></div>
+    </div>
+    <div id="spark-info" class="sparks" data-spark="#af43f9"></div>
+</div>

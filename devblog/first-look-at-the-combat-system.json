@@ -1,0 +1,143 @@
+{
+    "cover": "kryxivia-combat-system-cover.png",
+    "category": "2",
+    "date": 1643216273,
+    "lang": {
+        "en": {
+            "title": "First Look at the Combat System!",
+            "desc": "#2 | First look at the combat system!",
+            "content": {
+                "1": {
+                    "type": "title",
+                    "c": "Overview"
+                },
+                "2": {
+                    "type": "txt",
+                    "c": "Welcome back to the magical world of Kryxivia! Today we will take a look at the Kryxivia combat system which is a key component to overall game play. Players will find that it has both a familiarity and uniqueness when compared to other MMORPGs they may have played. The battle stats component of the combat system is something many MMO players will already be very familiar with but the addition of the concepts of elemental backlash and awakening will provide a very unique gameplay experience for all players."
+                },
+                "3": {
+                    "type": "title",
+                    "c": "Battle Stats"
+                },
+                "4": {
+                    "type": "txt",
+                    "c": "The core foundation of the game is centered around battle stats that are found on weapons and equipment in game. These stats are used in the battle formulas to help determine the damage and healing components of effects."
+                },  
+                "5": {
+                    "type": "txt",
+                    "c": "<u>Attack</u>:&nbsp;&nbsp;Primary offensive stat used to calculate both physical and magical damage dealt"
+                },
+                "6": {
+                    "type": "txt",
+                    "c": "<u>Resistance</u>:&nbsp;&nbsp;Primary defensive stat used to calculate both physical and magical damage mitigation"
+                },
+                "7": {
+                    "type": "txt",
+                    "c": "<u>Critical Hit Chance</u>:&nbsp;&nbsp;Determines the chance of critical hits"
+                },
+                "8": {
+                    "type": "txt",
+                    "c": "<u>Critical Damage</u>:&nbsp;&nbsp;Determines the increase in the amount of damage dealt on critical hits"
+                },
+                "9": {
+                    "type": "txt",
+                    "c": "<u>Healing</u>:&nbsp;&nbsp;Primary stat used to calculate healing effects"
+                },
+                "10": {
+                    "type": "txt",
+                    "c": "<u>Health</u>:&nbsp;&nbsp;Determines your characters overall health points"
+                },
+                "15": {
+                    "type": "title",
+                    "c": "Elemental Backlash"
+                },
+                "16": {
+                    "type": "txt",
+                    "c": "The effects in Kryxivia are tied to a specific element which after casting creates an elemental backlash effect on the target – that target gains the buff of whatever element they were last hit with. This includes both allies and enemy targets, so for example healing an ally with a water effect will give them reduced cooldown on their effects. It will be vital for players to understand how the effects of their elemental backlash and be able to take advantage of it during combat."
+                },  
+                "17": {
+                    "type": "img",
+                    "c": "kryxivia-combat-system-elemental_backlash_strip.png",
+                    "a": "Elemental backlash buff icons"
+                },      
+                "18": {
+                    "type": "txt",
+                    "c": "<u>Fire</u>:&nbsp;&nbsp;Increased efficiency of spell effects"
+                },
+                "19": {
+                    "type": "txt",
+                    "c": "<u>Water</u>:&nbsp;&nbsp;Cooldown reduction of spell effects"
+                },
+                "20": {
+                    "type": "txt",
+                    "c": "<u>Thunder</u>:&nbsp;&nbsp;Increased critical chance rate"
+                },
+                "21": {
+                    "type": "txt",
+                    "c": "<u>Wind</u>:&nbsp;&nbsp;Increased size of spell effects"
+                },
+                "22": {
+                    "type": "txt",
+                    "c": "<u>Earth</u>:&nbsp;&nbsp;Increased awakening chance rate"
+                },
+                "23": {
+                    "type": "title",
+                    "c": "Spell Mechanics"
+                },
+                "24": {
+                    "type": "txt",
+                    "c": "A key aspect to game play in an MMO is understanding the impact of how and when you cast your spells effects your damage and mobility. All spells in Kryxivia will either be instant or have a specified casting time. In addition they will also have one of the following spell effect mechanics:"
+                },  
+                "25": {
+                    "type": "txt",
+                    "c": "<u>Instant Effects</u>:&nbsp;&nbsp;The spell effect occurs immediately"
+                },
+                "26": {
+                    "type": "txt",
+                    "c": "<u>Incantation Effects</u>:&nbsp;&nbsp;The spell effect takes place over a period of time during which you may move"
+                },
+                "27": {
+                    "type": "txt",
+                    "c": "<u>Channeled Effects</u>:&nbsp;&nbsp;The spell effect takes place over a period of time during which you may not move"
+                },
+                "28": {
+                    "type": "title",
+                    "c": "Telegraphs"
+                },
+                "29": {
+                    "type": "txt",
+                    "c": "Another very unique aspect to Kryxivia's combat system is the use of telegraphs for spell effects.  A telegraph is a visual cue to a player that an enemy is casting a spell plus what the area of effect is and it's duration."
+                },
+                "30": {
+                    "type": "img",
+                    "c": "kryxivia-combat-system-telegraph.gif",
+                    "a": "Telegraph showing area of effect and cast duration"
+                },          
+                "31": {
+                    "type": "txt",
+                    "c": "The combat system currently supports a number different types of telegraph shapes:"
+                },
+                "32": {
+                    "type": "img",
+                    "c": "kryxivia-combat-system-telegraph-cone.png",
+                    "a": "Cone shaped telegraph typically used for spells like cleaves"
+                },
+                "33": {
+                    "type": "img",
+                    "c": "kryxivia-combat-system-telegraph-cube.png",
+                    "a": "Rectangle shaped telegraph which can vary in width and length"
+                },
+                "34": {
+                    "type": "img",
+                    "c": "kryxivia-combat-system-telegraph-cylinder2.png",
+                    "a": "Cylinder shaped telegraph which is cast at range and shows area of effect"
+                },
+                "35": {
+                    "type": "img",
+                    "c": "kryxivia-combat-system-telegraph-cylinder-self.png",
+                    "a": "Cylinder shaped telegraph which is cast on self or follows character"
+                }                
+            }
+        }
+    }
+}
